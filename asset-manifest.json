@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AhleSunnatGlobal/static/css/main.33cce743.css",
+    "main.js": "/AhleSunnatGlobal/static/js/main.7e69e580.js",
+    "static/js/787.ff1bc46d.chunk.js": "/AhleSunnatGlobal/static/js/787.ff1bc46d.chunk.js",
+    "static/media/logo2.jpg": "/AhleSunnatGlobal/static/media/logo2.4ea18d8945045c50119d.jpg",
+    "index.html": "/AhleSunnatGlobal/index.html",
+    "main.33cce743.css.map": "/AhleSunnatGlobal/static/css/main.33cce743.css.map",
+    "main.7e69e580.js.map": "/AhleSunnatGlobal/static/js/main.7e69e580.js.map",
+    "787.ff1bc46d.chunk.js.map": "/AhleSunnatGlobal/static/js/787.ff1bc46d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33cce743.css",
+    "static/js/main.7e69e580.js"
+  ]
+}
