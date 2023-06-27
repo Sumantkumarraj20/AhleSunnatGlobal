@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Md. Badiruddin Biswas",
+      "position": "Managing Director",
+      "email": "drmdsab@gmail.com",
+      "contact": "+919609958005",
+      "pic": "https://drive.google.com/uc?export=view&id=1ZJy-_5QT7I9WlhDDYwUAxL_r00FO7Z64"
+    },
+    {
+      "id": 2,
+      "name": "Md. Soheb Ali Biswas",
+      "position": "CEO",
+      "email": "bmdsohebali@gmail.com",
+      "contact": "+79933889786",
+      "pic": "https://drive.google.com/uc?export=view&id=1-kqm9iSGlmiizmtZkb-6w1sTuh9wS6bg"
+    },
+    {
+      "id": 3,
+      "name": "Chandan Saha",
+      "position": "Document Manager",
+      "email": "sahachandan464@gmail.com",
+      "contact": "+918001986486",
+      "pic": "https://drive.google.com/uc?export=view&id=1GPKoKuMZHVKMtfjHNyhWwqa8fB_IAnW3"
+    },
+    {
+      "id": 4,
+      "name": "Nurul Hasan",
+      "position": "Finance Manager",
+      "email": "emily@example.com",
+      "contact": "+918250583324",
+      "pic": "https://drive.google.com/uc?export=view&id=1-kqm9iSGlmiizmtZkb-6w1sTuh9wS6bg"
+    },
+    {
+        "id": 5,
+        "name": "Md. Sakiruddin",
+        "position": "Product Manager",
+        "email": "ronyali342@gmail.com",
+        "contact": "+91 9732509399",
+        "pic": "https://drive.google.com/uc?export=view&id=1Dw-nLdLFRUHSg5-UYJKyTN6Tn16pAzYa"
+      },
+      {
+        "id": 6,
+        "name": "Mukul Dhiman",
+        "position": "Marketing Manager",
+        "email": "akasanuque@gmail.com",
+        "contact": "+917895136028",
+        "pic": "https://drive.google.com/uc?export=view&id=1uFbLGkGtZXp5do9AEN0LehTKdKECZgJ5"
+      },
+      {
+        "id": 7,
+        "name": "Yusuf Sk",
+        "position": "Sales Manager",
+        "email": "yusuf1999.us@gmail.com",
+        "contact": "+919733515456",
+        "pic": "https://drive.google.com/uc?export=view&id=1Xo0aQ_owaucEl8WSTFBZjOEJEJTso8Vf"
+      },
+      {
+        "id": 8,
+        "name": "Kumar Sumant",
+        "position": "Web Developer",
+        "email": "sumantkumarraj20@gmail.com",
+        "contact": "+79996099840",
+        "pic": "https://drive.google.com/uc?export=view&id=1ESuoASufx3oNVyzj5nj8wcpZk8OS9no0"
+      }
+  ]
+  

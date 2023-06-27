@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Md. Badiruddin Biswas",
+      "position": "Managing Director",
+      "email": "john@example.com",
+      "contact": "+91 9609958055",
+      "pic": "https://randomuser.me/api/portraits/med/men/64.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Md. Soheb Ali Biswas",
+      "position": "CEO",
+      "email": "jane@example.com",
+      "contact": "987-654-3210",
+      "pic": "https://randomuser.me/api/portraits/med/men/65.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chandan Saha",
+      "position": "Document Manager",
+      "email": "michael@example.com",
+      "contact": "555-123-4567",
+      "pic": "https://randomuser.me/api/portraits/med/men/66.jpg"
+    }
+  ]

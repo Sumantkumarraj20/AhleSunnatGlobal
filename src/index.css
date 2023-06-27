@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.carousel .slider-wrapper.axis-horizontal .slider {
+  -ms-box-orient: horizontal; /* Internet Explorer and Microsoft Edge */
+  -webkit-box-orient: horizontal; /* Chrome, Safari, and newer versions of Edge */
+  -moz-box-orient: horizontal; /* Firefox */
+  box-orient: horizontal; /* Standard property */
+}
+
