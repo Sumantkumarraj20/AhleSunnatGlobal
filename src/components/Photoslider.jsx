@@ -3,9 +3,9 @@ import React from "react";
 const Photoslider = ({ imgsrcs }) => {
   return (
     <div
-      id="carouselExampleSlidesOnly"
-      className="carousel slide"
-      data-bs-ride="carousel"
+      id="carouselExampleIndicators"
+      className="carousel slide m-2 shadow"
+      data-bs-ride="true"
     >
       <div className="carousel-indicators">
         {imgsrcs.map((_, index) => (
@@ -25,14 +25,16 @@ const Photoslider = ({ imgsrcs }) => {
             key={index}
             className={`carousel-item ${index === 0 ? "active" : ""}`}
           >
-            <img src={imgsrc} className="d-block w-100" alt="source" />
+            <div className="image-container">
+              <img src={imgsrc} alt="source" />
+            </div>
           </div>
         ))}
       </div>
       <button
         className="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleControls"
+        data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -41,7 +43,7 @@ const Photoslider = ({ imgsrcs }) => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleControls"
+        data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>

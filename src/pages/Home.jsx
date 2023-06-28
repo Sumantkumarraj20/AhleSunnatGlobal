@@ -6,16 +6,16 @@ import images from "../assets/data/imagesrc.json";
 
 const Home = () => {
 
-  const imgsrc = images.photosliderimage;
+  const imgsrc = images.companyimage;
 
   return (
     <div>
       <div className="container-fluid">
         <div className="row justify-content-center ">
-          <div className="col-lg-9 position-relative rounded">
+          <div className="col-lg-8 position-relative rounded">
             <Photoslider imgsrcs={imgsrc}  />
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="card mb-2 shadow">
               <h5 className="card-header">About</h5>
               <div className="card-body">

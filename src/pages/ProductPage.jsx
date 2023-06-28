@@ -72,20 +72,26 @@ const ProductPage = () => {
           </p>
           <p className="fs-3 mb-0 pb-0">Description</p>
           <p className="fw-light mt-0 pt-0">{defaultDescription}</p>
-          <p className="fs-3 mb-0 pb-0">Pricing Information</p>
-          <p className="fw-light mt-0 pt-0">Price: {defaultPrice}</p>
-          <p className="fs-3 mb-0 pb-0">Availability</p>
-          <p className="fw-light mt-0 pt-0">{defaultAvailability}</p>
+          <div className="d-flex justify-content-left">
+            <div className="flex-wrap me-auto">
+              <p className="fs-3 mb-0 pb-0">Pricing Information</p>
+              <p className="fw-light mt-0 pt-0">Price: {defaultPrice}</p>
+            </div>
+            <div className="flex-wrap me-auto">
+              <p className="fs-3 mb-0 pb-0">Availability</p>
+              <p className="fw-light mt-0 pt-0">{defaultAvailability}</p>
+            </div>
+          </div>
           <div className="d-flex justify-content-left">
             <button
-              className="btn btn-dark me-2 d-flex align-items-center"
+              className="btn btn-dark me-5 d-flex align-items-center"
               onClick={openWhatsAppChat}
             >
               <i className="fab fa-whatsapp me-2"></i>
               WhatsApp
             </button>
             <button
-              className="btn btn-dark ms-2 d-flex align-items-center"
+              className="btn btn-dark  d-flex align-items-center"
               onClick={sendEmail}
             >
               <i className="fas fa-envelope me-2"></i>
@@ -97,27 +103,27 @@ const ProductPage = () => {
       <div className="row mt-3">
         <div className="col-lg-4">
           <p className="fs-3">Product Specifications</p>
-          <p className="fs-4 mb-0 pb-0">H. S. Code</p>
+          <p className="fs-5 mb-0 pb-0">H. S. Code</p>
           <p className="fw-light mt-0 pt-0">{defaultHSCode}</p>
-          <p className="fs-4 mb-0 pb-0">Origin</p>
+          <p className="fs-5 mb-0 pb-0">Origin</p>
           <p className="fw-light mt-0 pt-0">{defaultOrigin}</p>
         </div>
         <div className="col-lg-4">
           <p className="fs-3">Packaging details</p>
-          <p className="fs-4 mb-0 pb-0">Material used</p>
+          <p className="fs-5 mb-0 pb-0">Material used</p>
           <p className="fw-light mt-0 pt-0">{defaultPackagingMaterial}</p>
-          <p className="fs-4 mb-0 pb-0">Size</p>
+          <p className="fs-5 mb-0 pb-0">Size</p>
           <p className="fw-light mt-0 pt-0">{defaultPackSize}</p>
-          <p className="fs-4 mb-0 pb-0">Special Qualities of packaging </p>
+          <p className="fs-5 mb-0 pb-0">Special Qualities of packaging </p>
           <p className="fw-light mt-0 pt-0">{defaultSpecialPackagingFeature}</p>
         </div>
         <div className="col-lg-4">
           <p className="fs-3">Usage and Serving Suggestions</p>
           <p className="fs-4 mb-0 pb-0">Storage Suggetions</p>
           <p className="fw-light mt-0 pt-0">{defaultStorageInstructions}</p>
-          <p className="fs-4 mb-0 pb-0">Preparation</p>
+          <p className="fs-5 mb-0 pb-0">Preparation</p>
           <p className="fw-light mt-0 pt-0">{defaultPreparationInstructions}</p>
-          <p className="fs-4 mb-0 pb-0">Serving</p>
+          <p className="fs-5 mb-0 pb-0">Serving</p>
           <p className="fw-light mt-0 pt-0">{defaultServingInstructions}</p>
         </div>
       </div>
@@ -177,7 +183,7 @@ const ProductPage = () => {
         </div>
       </div>
       <div className="row mt-3">
-        <div>Last updated on: {defaultTimestamp}</div>
+        <div className="fs-4 fst-italic m-2">Last updated on: {defaultTimestamp}</div>
         <div className="col-lg-12">
           <h3>Customer Reviews</h3>
           <div className="card">

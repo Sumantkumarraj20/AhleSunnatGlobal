@@ -1,26 +1,33 @@
 [
-    {
-      "id": 1,
-      "name": "Md. Badiruddin Biswas",
-      "position": "Managing Director",
-      "email": "john@example.com",
-      "contact": "+91 9609958055",
-      "pic": "https://randomuser.me/api/portraits/med/men/64.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Md. Soheb Ali Biswas",
-      "position": "CEO",
-      "email": "jane@example.com",
-      "contact": "987-654-3210",
-      "pic": "https://randomuser.me/api/portraits/med/men/65.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Chandan Saha",
-      "position": "Document Manager",
-      "email": "michael@example.com",
-      "contact": "555-123-4567",
-      "pic": "https://randomuser.me/api/portraits/med/men/66.jpg"
-    }
+  {
+    "id": 1,
+    "name": "John Doe",
+    "company": "ABC Company",
+    "testimonial": "Working with AhleSunnat Global has been a game-changer for our import business. Their expertise and dedication have helped us streamline our sourcing process and expand into new markets. Highly recommended!"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "company": "XYZ Corporation",
+    "testimonial": "AhleSunnat Global has been instrumental in guiding us through the complex world of import regulations. Their attention to detail and prompt support have made our import transactions seamless and hassle-free. A trusted partner indeed!"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "company": "123 Industries",
+    "testimonial": "AhleSunnat Global's knowledge of international markets and their strategic guidance have significantly boosted our export operations. Their professionalism and commitment to excellence make them a top choice for export-import services."
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "company": "Sunshine Retail",
+    "testimonial": "We have been working with AhleSunnat Global for years, and they have consistently delivered exceptional results. Their attention to detail, reliable sourcing, and efficient logistics support have helped us stay ahead in a competitive market."
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "company": "Global Trading Co.",
+    "testimonial": "AhleSunnat Global's expertise in compliance and documentation has been invaluable for our import operations. Their team ensures smooth customs clearance and helps us navigate complex regulations seamlessly. Highly recommended partner!"
+  }
+    
   ]

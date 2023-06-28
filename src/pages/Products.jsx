@@ -20,6 +20,9 @@ const Product = () => {
     groupedProducts[type].push(product);
   });
 
+   // eslint-disable-next-line no-unused-vars
+   const unusedProducts = products; // it is unused
+
   return (
     <div className="container-fluid">
       {Object.entries(groupedProducts).map(([type, products]) => (
