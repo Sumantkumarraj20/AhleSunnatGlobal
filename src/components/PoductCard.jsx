@@ -10,7 +10,7 @@ const PoductCard = ({ product }) => {
   const defaultProductImage = randomImage || "https://www.groups3.com/wp-content/uploads/2021/02/productos-ecommerce.jpg";
   return (
     <div className="card m-2 shadow">
-      <div className="product-card">
+      <div className="product-card mb-0">
         <img
           src={defaultProductImage}
           alt={Title + randomIndex}
@@ -19,10 +19,10 @@ const PoductCard = ({ product }) => {
         />
       </div>
       <div className="card-body">
-        <p className="card-title fs-3">{Title}</p>
-        <div className="row">
-          <div className="col-6">Price from</div>
-          <div className="col-6">{Price}</div>
+        <p className="card-title fs-4">{Title}</p>
+        <div className="row mb-2">
+          <div className="col-5">Price from</div>
+          <div className="col-7 fw-lighter">{Price}</div>
         </div>
         <Link to={`/productdetails/${ID}`} className="btn btn-dark">
           View Details

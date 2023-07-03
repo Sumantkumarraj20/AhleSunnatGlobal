@@ -5,11 +5,22 @@ import ProfileCard from "../components/ProfileCard";
 import Members from "../assets/data/profiledata.json";
 import clients from "../assets/data/clientdata.json";
 import images from "../assets/data/imagesrc.json";
+import productArray from "../assets/data/productdata.json";
 import { Link } from "react-router-dom";
 
 const About = () => {
-  const imgsrc = images.productimage;
   const meet = images.officeimg;
+  const productImageUrls = [];
+  for (const product of productArray) {
+    productImageUrls.push(...product.ProductImage);
+  }
+  const getRandomElementsFromArray = (array, numElements) => {
+    const shuffledArray = array.sort(() => Math.random() - 0.5);
+    return shuffledArray.slice(0, numElements);
+  };
+  
+  // Randomly select five images from productImageUrls
+  const randomImages = getRandomElementsFromArray(productImageUrls, 5);
 
   return (
     <div className="container-fluid">
@@ -122,7 +133,8 @@ const About = () => {
             </div>
             <div className="product-showcase">
               <h3>Our Products</h3>
-              <Photoslider imgsrcs={imgsrc} />
+              <Photoslider imgsrcs={randomImages} />
+              <Link className="btn btn-dark m-2" to="/products" >View all products on Our Product page</Link>
             </div>
           </div>
         </div>

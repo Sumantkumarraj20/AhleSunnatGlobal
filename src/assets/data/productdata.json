@@ -1,80 +1,62 @@
 [
     {
         "ID": "1",
-        "Timestamp": "2023-06-22T14:53:40.600Z",
-        "HS_code": "08072000",
-        "Title": "Papaya",
+        "Timestamp": "2023-06-30T14:42:27.791Z",
+        "HS_Code": "08055000",
+        "Title": "Citrus ",
         "Type": "Fruit",
-        "Category": "Premium",
+        "Category": "Premium ",
         "Description": [
-            "Papaya fruit pulp and juice are rich in a specific type of enzyme called papain, which increases collagen production. collagen, in turn, is responsible for the elasticity and health of the skin. papaya contains vitamins a, c, e and antioxidants that help moisturize, nourish the skin and slow down the aging process."
+            "Citrus fruit are rich in many nutrients, such as vitamin c, flavonoid and fiber, which provide vascular protection, reduce inflammation, improve gastrointestinal function and health."
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=1EWpa11AXqA_wogFY5t7pb0SPjQ7_3q3K"
+            "https://drive.google.com/uc?export=view&id=1-szKOfiiVhry6TPOWH0CLqrAvIGUfigI",
+            "https://drive.google.com/uc?export=view&id=1at8w_4wzT-jhAFNA4zwkTcguoTRpy0tR",
+            "https://drive.google.com/uc?export=view&id=1aDbuPr16wui1s3Kay17Y-qJYZmTehct_",
+            "https://drive.google.com/uc?export=view&id=12pRYUVlLiK3IUUKsESTVcYomphdS8bgX"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Cardboard",
-        "PackSize": "11*10.5*11inch",
-        "Specialpackagingfeature": "Biodegradable,moisture proof, food grade.",
-        "Price": "$ 7.02 / pack",
-        "Availability": "In stock",
+        "PackagingMaterial": "Corrugated box",
+        "PackSize": "8kg (customize)",
+        "Specialpackagingfeature": "Mesh, breathable bags, biodegradable, compostable materials, protective cushioning, reusable packaging.",
+        "Price": "$ 4.8 - 6.8 / pack ",
+        "Availability": "In stock ",
         "Preparation_instructions": [
-            "Preparation instructions for papaya:",
-            "",
-            "Choose a ripe papaya: look for a papaya that is slightly soft when gently pressed. it should have a vibrant orange color and a sweet aroma.",
-            "",
-            "Wash the papaya: rinse the papaya under cool running water to remove any dirt or impurities from the skin.",
-            "",
-            "Cut the papaya in half: using a sharp knife, carefully slice the papaya lengthwise. the knife should easily cut through the flesh and the seeds in the center.",
-            "",
-            "Scoop out the seeds: use a spoon to scoop out the black seeds from the center of the papaya. the seeds are not typically consumed.",
-            "",
-            "Peel the skin: hold one half of the papaya firmly and use a vegetable peeler or a knife to remove the skin. repeat the process with the other half.",
-            "",
-            "Slice or dice the papaya: once peeled, you can cut the papaya into slices, cubes, or any desired shape for serving."
+            "Washing the fruits, peeling, juicing, slicing, segmenting, storing, ripening."
         ],
         "Serving_instructions": [
-            "Fresh papaya: place the sliced or diced papaya on a serving platter or individual plates. serve it as a refreshing and healthy snack or dessert.",
-            "",
-            "Papaya salad: toss the papaya with some lime juice, a sprinkle of salt, and optionally, some chili flakes for a delicious and tangy papaya salad. serve it as a side dish or appetizer.",
-            "",
-            "Papaya smoothie: blend the papaya with some yogurt, milk or juice, and a sweetener of your choice to make a creamy and tropical papaya smoothie. serve it in a glass with a straw.",
-            "",
-            "Papaya salsa: combine the diced papaya with diced tomatoes, onions, cilantro, lime juice, and a pinch of salt to make a flavorful papaya salsa. serve it alongside grilled meats or as a topping for tacos or tortilla chips.",
-            "",
-            "Papaya in fruit salad: add sliced papaya to a fruit salad along with other fruits like pineapple, strawberries, and grapes. serve it as a refreshing and colorful dessert or side dish.",
-            "",
-            "Remember, fresh papaya is best enjoyed when it's ripe and sweet. adjust the serving suggestions based on your taste preferences and the specific recipe you choose to make. enjoy your papaya!"
+            "Select ripe fruits, wash the fruit, cut and slice, juice extraction, serve as garnish or ingredient."
         ],
         "Storage_instructions": "Cold storage"
     },
     {
         "ID": "2",
-        "Timestamp": "2023-06-22T22:32:13.940Z",
-        "HS_code": "32041620",
-        "Title": "Orange",
+        "Timestamp": "2023-07-01T11:55:19.434Z",
+        "HS_Code": "32041620",
+        "Title": "Orange ",
         "Type": "Fruit",
-        "Category": "Premium",
+        "Category": "Premium ",
         "Description": [
-            "Orange contain vitamins a, b and high levels of vitamin c, a powerful antioxidant that neutralizes free radicals, prevents infections, cramps and vomiting, and is great for the health of your skin.the fruit of the sweet orange is a globular or oblong hesperidia 2-1/2 to 4 inches (6 to 10 cm) in diameter."
+            "Orange contain vitamins a, b and high levels of vitamin c, a powerful antioxidant that neutralizes free radicals, prevents infections, cramps and vomiting, and is great for the health of your skin.the fruit of the sweet orange is a globular or oblong hesperidia 2-1/2 to 4 inches (6 to 10 cm) in diameter.",
+            ""
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=1DtKGdP_nqWK8a81XI7F442DdZIeJaNgA"
+            "https://drive.google.com/uc?export=view&id=1-szKOfiiVhry6TPOWH0CLqrAvIGUfigI",
+            "https://drive.google.com/uc?export=view&id=1at8w_4wzT-jhAFNA4zwkTcguoTRpy0tR",
+            "https://drive.google.com/uc?export=view&id=1aDbuPr16wui1s3Kay17Y-qJYZmTehct_",
+            "https://drive.google.com/uc?export=view&id=12pRYUVlLiK3IUUKsESTVcYomphdS8bgX"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Corrugated box",
-        "PackSize": "20*12*8 inches (l*b*h)",
-        "Specialpackagingfeature": "These boxes are manufactured using hygienic kraftpaper from reputed kraftpaper manufacturers in the industry. apart from this, we offer these boxes in different specifications that help in meeting the diverse requirements of our clients.",
-        "Price": "$ 10 / pack",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "10 kg / (customise)",
+        "Specialpackagingfeature": "Breathable bags, biodegradable, compostable materials, protective cushioning, reusable packaging.",
+        "Price": "$ 9.30 - 11.30 / pack ",
         "Availability": "In stock",
         "Preparation_instructions": [
-            "How to make orange juice 5 steps?",
-            "",
-            "To make orange juice with juicer, buy good quality oranges. ...",
             "Peel the oranges.",
             "Separate out the orange segments.",
             "Add a few orange segments at a time in the juicer.",
-            "Collect the orange juice with juicer (hopper) in a jar. ...",
+            "Collect the orange juice with juicer (hopper) in a jar.",
             "Serve orange juice in juicer immediately."
         ],
         "Serving_instructions": [
@@ -87,196 +69,620 @@
     },
     {
         "ID": "3",
-        "Timestamp": "2023-06-22T23:18:28.972Z",
-        "HS_code": "08039010",
-        "Title": "Banana",
+        "Timestamp": "2023-07-01T12:20:07.020Z",
+        "HS_Code": "08055000",
+        "Title": "Citrus ",
         "Type": "Fruit",
-        "Category": "Premium",
+        "Category": "Premium ",
         "Description": [
-            "Large bananas contain about 121 calories.a nutritious and unique banana variety from india. the tall tree bears hefty clusters and each fruit is 8 to 12 inches in size."
+            "Citrus fruits are rich in many nutrients, such as vitamin c, flavonoids and fiber, which provide vascular protection, reduce inflammation, improve gastrointestinal function and health."
         ],
         "ProductImage": [
-            ""
+            "https://drive.google.com/uc?export=view&id=1-ZN2QOtXWhM-inKE2a7efZoy-k-jkL15",
+            "https://drive.google.com/uc?export=view&id=16yRyda9l-XtVcts2N8K2IKuwtzBDnoex",
+            "https://drive.google.com/uc?export=view&id=184WWO6vQobs-eLDAkivWxr4es4euK3gq",
+            "https://drive.google.com/uc?export=view&id=1o6-trPUIaTGBSrxIF6tg4STgTIjFTyiU",
+            "https://drive.google.com/uc?export=view&id=1rTvH8rmRKkP_6n6xaXs2ocvPGSmu_i6-"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Corrugated box",
-        "PackSize": "Customize",
-        "Specialpackagingfeature": "Its rigidity can support heavy weight and pressure from stacked boxes in shipping, while its layers provide flexibility when wrapping individual items.",
-        "Price": "$ 11.70/ pack",
-        "Availability": "In stock",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Mesh, breathable bags, biodegradable, compostable materials, protective cushioning, reusable packaging",
+        "Price": "$ 4.8 - 6.8 / pack ",
+        "Availability": "In stock ",
         "Preparation_instructions": [
-            "Banana recipes",
-            "Vegan chocolate banana ice cream. ...",
-            "Crispy banana fritters (pisang goreng wijen) ...",
-            "Upside-down banana cake with maple-caramel sauce. ...",
-            "Fragrant spiced chicken with banana sambal. ...",
-            "Frozen banana lollies. ...",
-            "Banana bread. ...",
-            "Banana bread & butter pudding. ...",
-            "American-style pineapple & banana pancakes."
+            "Washing the fruits, peeling, juicing, slicing, segmenting, storing, ripening"
         ],
         "Serving_instructions": [
-            "How do you serve bananas as finger food?",
-            "Method. peel the skin and slice lengthways into four finger sticks. the sticks should be long enough for your baby to hold in their hand with the top of the banana sticking out. put the sticks on a plate so your baby can feed themselves."
+            "Select ripe fruits, wash the fruit, cut and slice, juice extraction, serve as garnish or ingredient"
         ],
         "Storage_instructions": "Cold storage"
     },
     {
         "ID": "4",
-        "Timestamp": "2023-06-23T18:39:07.943Z",
-        "HS_code": "08072000",
-        "Title": "Papaya",
+        "Timestamp": "2023-07-01T16:51:19.736Z",
+        "HS_Code": "10063010",
+        "Title": "Basmati sella 1509",
+        "Type": "Rice",
+        "Category": "Basmati ",
+        "Description": [
+            "Since our foundation, we have dedicated ourselves to providing sella basmati 1509 rice to our customers all over the world. functions:* pleasant aroma, *long shelf life, *free from husk."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1jxiZQOROOx3AIp_o0pwWo5HwwkPOLZ7N"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Are the most environmentally friendly, versatile, and practical bags on the market today. more and more people look forward to the widespread use of non-woven bag ",
+        "Price": "$ 1.20 - 1.62 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Rinse the rice, soak the rice (optional), add salt and spices, add rice, cook the rice, check for doneness, drain excess water, fluff the rice."
+        ],
+        "Serving_instructions": [
+            "Transfer to a serving dish, garnish (optional), serve hot, accompaniments, portioning, storage."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "5",
+        "Timestamp": "2023-07-01T17:17:06.243Z",
+        "HS_Code": "10063020",
+        "Title": "Basmati sella 1121",
+        "Type": "Rice",
+        "Category": "Basmati ",
+        "Description": [
+            "Average grain length: 8.30 mm",
+            "Damage and discoloration: max. 0.5%",
+            "Black grains: no",
+            "Foreign matter: no",
+            "Taste: sweet",
+            "Humidity: no more than 13%",
+            "Whiteness of ketta: 38/39",
+            "Does not contain: infestation, fungus, dyes and coloring chemicals.",
+            "Sorted: 100%",
+            "Color: creamy white"
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1OMGdnrvZa_uYM2wjGG8f1Mj_Sqz5-Df-",
+            "https://drive.google.com/uc?export=view&id=1gBjR4ZPwRjiJQa17Ob9WsUzJci_3O-dt"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Breathability, durability, reusability, environmental friendliness, lightweight, cost-effectiveness, customizability, water resistance,",
+        "Price": "$ 1.31 - 1.61 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Rinse the rice, soak the rice (optional), boil water, add salt and spices (optional), add rice, cook the rice, check for doneness, drain excess water, fluff the rice."
+        ],
+        "Serving_instructions": [
+            "Transfer to a serving dish, garnish (optional), serve hot, portioning, accompaniments, enjoy the aromatic experience, ",
+            "Remember to handle the basmati 1121 rice gently when serving to maintain its delicate texture and appearance. this rice variety is highly regarded for its long grains, aromatic profile, and ability to elevate the dining experience."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "6",
+        "Timestamp": "2023-07-01T17:38:25.367Z",
+        "HS_Code": "080450",
+        "Title": "Fazli mango",
         "Type": "Fruit",
         "Category": "Premium",
         "Description": [
-            "Papaya fruit pulp and juice are rich in a specific type of enzyme called papain, which increases collagen production. collagen, in turn, is responsible for the elasticity and health of the skin. papaya contains vitamins a, c, e and antioxidants that help moisturize, nourish the skin and slow down the aging process."
+            "The 'fazli' mango is a mango cultivar primarily grown in bangladesh and indian state of west bengal. it is a late maturing fruit, available after other varieties. fazlis are commonly used in jams and pickles in the cuisine of the indian subcontinent. each mango can be quite large, going up to a kilo."
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=1VaHTrP30XWhlb6CRwm-Hp82Zr5cw5Gip",
-            "https://drive.google.com/uc?export=view&id=1wsVy28l_1LC7c4-eFDpty_rn1wL24Z2W",
-            "https://drive.google.com/uc?export=view&id=1kpxMNmOYLa0ji4q5oXZ3KTkKYkNz6_un",
-            "https://drive.google.com/uc?export=view&id=1ELDJ4s4nkWbWFd0CSdIg4XV6kf6qwOMX"
+            "https://drive.google.com/uc?export=view&id=11m8sPVZ4ZnU9mPkLlqxIM91dPi3ivfZw",
+            "https://drive.google.com/uc?export=view&id=1yQ9hGoXNjPHwPHHKFSmAEHKryV7KlLqO"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Customize/corrugated box",
-        "PackSize": "Weight holding capacity (kg) 11 - 25 kg",
-        "Specialpackagingfeature": "Its rigidity can support heavy weight and pressure from stacked boxes in shipping, while its layers provide flexibility when wrapping individual items.",
-        "Price": "$ 5.94/ pack",
-        "Availability": "In stock",
+        "PackagingMaterial": "Each individual fruit of mango will be enclosed in a clean, white, soft, expandable and netted type polystyrene sleeve to prevent bruising before packing in a box. the mangoes must be packed in insect-proof boxes.",
+        "PackSize": "14.25 x 8.5 x 4.",
+        "Specialpackagingfeature": "Pusa peetamber. it is a unique hybrid (amrapali x lal sundari) with the regularity of bearing an attractive oblong fruit shape with a distinctive orange color. due to its oblong shape, it is quite suitable for uniform packaging.",
+        "Price": "15$/pack",
+        "Availability": "In stock always ",
         "Preparation_instructions": [
-            "Choose a ripe papaya: look for a papaya that is slightly soft when gently pressed. it should have a vibrant orange color and a sweet aroma.",
+            "Step 1 :-using a sharp knife, slice the mango lengthways on either side of the stone.",
             "",
-            "Wash the papaya: rinse the papaya under cool running water to remove any dirt or impurities from the skin.",
+            "Step 2:-score a lattice into the flesh, being careful not to cut through the skin.",
             "",
-            "Cut the papaya in half: using a sharp knife, carefully slice the papaya lengthwise. the knife should easily cut through the flesh and the seeds in the center.",
-            "",
-            "Scoop out the seeds: use a spoon to scoop out the black seeds from the center of the papaya. the seeds are not typically consumed.",
-            "",
-            "Peel the skin: hold one half of the papaya firmly and use a vegetable peeler or a knife to remove the skin. repeat the process with the other half.",
-            "",
-            "Slice or dice the papaya: once peeled, you can cut the papaya into slices, cubes, or any desired shape for serving."
+            "Step 3:-gently push out the flesh, slice off the cubes and discard the skin. cut the remaining flesh from around the stone into cubes and enjoy.",
+            ""
         ],
         "Serving_instructions": [
-            "Fresh papaya: place the sliced or diced papaya on a serving platter or individual plates. serve it as a refreshing and healthy snack or dessert.",
+            "Slice off the mango on the other side as well. you can peel off the skin on the seed and eat slice of the flesh to eat.taking one-half of the mango, slide down the mango slices down the rim of a glass, right between the peel and the flesh of the mango.",
             "",
-            "Papaya salad: toss the papaya with some lime juice, a sprinkle of salt, and optionally, some chili flakes for a delicious and tangy papaya salad. serve it as a side dish or appetizer.",
-            "",
-            "Papaya smoothie: blend the papaya with some yogurt, milk or juice, and a sweetener of your choice to make a creamy and tropical papaya smoothie. serve it in a glass with a straw.",
-            "",
-            "Papaya salsa: combine the diced papaya with diced tomatoes, onions, cilantro, lime juice, and a pinch of salt to make a flavorful papaya salsa. serve it alongside grilled meats or as a topping for tacos or tortilla chips.",
-            "",
-            "Papaya in fruit salad: add sliced papaya to a fruit salad along with other fruits like pineapple, strawberries, and grapes. serve it as a refreshing and colorful dessert or side dish.",
-            "",
-            "Remember, fresh papaya is best enjoyed when it's ripe and sweet. adjust the serving suggestions based on your taste preferences and the specific recipe you choose to make. enjoy your papaya!"
+            ""
         ],
         "Storage_instructions": "Cold storage"
     },
     {
-        "ID": "5",
-        "Timestamp": "2023-06-23T20:56:12.383Z",
-        "HS_code": "08039010",
-        "Title": "Banana",
+        "ID": "7",
+        "Timestamp": "2023-07-01T18:30:09.751Z",
+        "HS_Code": "1006",
+        "Title": "Badshabhog",
+        "Type": "Rice",
+        "Category": "Special aromatic ",
+        "Description": [
+            "Badshah bhog is traditionally used on special occasions and is best served with pulao and other savory dishes. a more popular fragrant rice variety from bengal, badshah bhog is, as the name suggests, \"fit for kings\".",
+            ""
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1qyuDr3Q48g20EQ8iqGVQec7QJ4AurkJB",
+            "https://drive.google.com/uc?export=view&id=1EEQyJ3sqkNr9I8rIHq2Bq2AUjDfoyqD6"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag",
+        "PackSize": "8 x 10 - 20 x 30 inches",
+        "Specialpackagingfeature": "Woven bags manufacturer decides the best-suited packaging material for rice based on the inherent properties of rice. rice absorbs moisture from the air; this moisture content is known as equilibrium relative humidity. if it is greater than 70% then rice will have mold growth. respiration in rice grains causes heating that encourages insect and/or molds growth. the immediate environment of the grains also determines the packaging requirements for rice grains. moisture condensation, high temperature, and high oxygen concentration near rice grains can hamper the quality of the grains.",
+        "Price": 1.54,
+        "Availability": "In stock always ",
+        "Preparation_instructions": [
+            "The rice falls under the aman category of crops, meaning it is harvested in december. the short, slim white rice is perfect for the special winter meals."
+        ],
+        "Serving_instructions": [
+            "Badshah bhog is traditionally used in special occasions and best suited for pulao and other savoury dishes. you can pair it with hearty, steamy dishes and broths for that perfect cold weather lunch."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "8",
+        "Timestamp": "2023-07-01T18:49:38.435Z",
+        "HS_Code": "10063090",
+        "Title": "Kataribhog",
+        "Type": "Rice",
+        "Category": "Special aromatic",
+        "Description": [
+            "Katharibhog is one of our lightly flavored rice varieties. the fine grains are not sticky and produce firm and somewhat creamy rice.",
+            ""
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1gLN2XmiJdkaPviAy2teRrYF9x_w1mefE",
+            "https://drive.google.com/uc?export=view&id=1Nec3akzve_Vw7LP83_iaHqImFrK9p7gQ"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag",
+        "PackSize": "1 x 25 kg",
+        "Specialpackagingfeature": "The graded rice should be packed in new, clean, sound and dry jute bags, cloth bags, polywoven bags, polyethylene, polypropylene, high molecular high density polyethylene paper packages or in other food grade plastic/packaging materials.",
+        "Price": "6.6/-pack",
+        "Availability": "In stock always ",
+        "Preparation_instructions": [
+            "Kataribhog is one of our lightly aromatic rice varieties. the slender grains are non-sticky and produce firm and somewhat creamy rice. the traditional variety finds mention in folk and rural literature of dinajpur district in west bengal, indicating its long history of local consumption. flavour. sweet, caramel."
+        ],
+        "Serving_instructions": [
+            "Use the flavorful kataribhog chal for your favorite sweet and savory dishes. these rice are carefully sourced from our farmers, and specially packed by farmers best just for you. best for biriyani, polao, khichuri and firni/payesh.",
+            "",
+            ""
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "9",
+        "Timestamp": "2023-07-01T19:54:55.101Z",
+        "HS_Code": "08039010",
+        "Title": "Banana ",
         "Type": "Fruit",
-        "Category": "Premium",
+        "Category": "Premium ",
         "Description": [
             "Large bananas contain about 121 calories.a nutritious and unique banana variety from india. the tall tree bears hefty clusters and each fruit is 8 to 12 inches in size."
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=1BsD7DqBFzHhFhtIi8OHwpyPRWbYvNB9c",
-            "https://drive.google.com/uc?export=view&id=1yXrt0dovqwGwZYoBaHHTG-yWcfkDV_8a",
-            "https://drive.google.com/uc?export=view&id=1aYgJ-CYH7b2Lao4CPaB3fKzw9RBlR5X1",
-            "https://drive.google.com/uc?export=view&id=1STcNtbGP135JrZSiYckllRwnh1dKxEPE",
-            "https://drive.google.com/uc?export=view&id=1rVWjde0p1RChOc0rsRWv1nAGCH1D6A9N"
+            "https://drive.google.com/uc?export=view&id=14hnKoEVS7VTTszsABv1jqm-UD9h1LQWm",
+            "https://drive.google.com/uc?export=view&id=1gZbsYEvrI77GZRE1CXB2oKAyb5RlNNV4",
+            "https://drive.google.com/uc?export=view&id=1HiRUtNopVpgHBzpPnMQc-2jidYit4hdD",
+            "https://drive.google.com/uc?export=view&id=1gWVTw1U8m9iitH5VaWQrNjA-5tJT8WnI",
+            "https://drive.google.com/uc?export=view&id=1_LxNbX5R7kSqUN0E3UfGGObxR3dOQvAT"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Corrugated box",
-        "PackSize": "Customize / 8-13 kg",
-        "Specialpackagingfeature": "Double wall - 5 ply",
-        "Price": "$ 11.70 / pack",
-        "Availability": "In stock",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "13 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, labeling and branding, cushioning, moisture resistance, size and structure, ripening control, ",
+        "Price": "$ 7.19 - 9.19 / pack ",
+        "Availability": "In stock ",
         "Preparation_instructions": [
-            "Peel the skins from the bananas by breaking the tip back and peeling skin in sections. peel in sections until all the skin has been removed. remove any white threads that remain on the flesh of the banana. cut the banana into slices to add to sweet or savory dishes."
+            "Selecting ripe bananas, washing, peeling, slicing or eating whole, storage."
         ],
         "Serving_instructions": [
-            "Here are a few healthy breakfast ideas that include bananas:",
-            "Frozen banana bites with yogurt and nut butter.",
-            "Greek yogurt with bananas and chia seeds.",
-            "A protein smoothie with spinach, berries, and frozen banana.",
-            "Oatmeal topped with nuts, seeds, and sliced bananas.",
-            "Banana breakfast bars with nut butter, oats, and walnuts."
+            "Fresh and whole, sliced or diced, smoothies and shakes, baking, fruit salads, grilled or roasted, banana ice cream."
         ],
         "Storage_instructions": "Cold storage"
     },
     {
-        "ID": "6",
-        "Timestamp": "2023-06-24T19:34:16.063Z",
-        "HS_code": "10063010",
-        "Title": "Rice",
-        "Type": "Rice",
-        "Category": "Special aromatic",
+        "ID": "10",
+        "Timestamp": "2023-07-01T20:15:32.745Z",
+        "HS_Code": "08072000",
+        "Title": "Papaya ",
+        "Type": "Fruit",
+        "Category": "Premium ",
         "Description": [
-            "Highly fragrant rice has been a feature of bengali festivals, rituals and celebrations, and aged gobindobhog has almost attained legendary status."
+            "Papaya fruit pulp and juice are rich in a specific type of enzyme called papain, which increases collagen production. collagen, in turn, is responsible for the elasticity and health of the skin. papaya contains vitamins a, c, e and antioxidants that help moisturize, nourish the skin and slow down the aging process."
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=10EdzmP_aM7UFMMD6xo4UWDBAcwPMVtPT",
-            "https://drive.google.com/uc?export=view&id=1ZE-2aRyviihzr27rEDUh9PHg7CwrNjxo",
-            "https://drive.google.com/uc?export=view&id=1l_Yee2WMYjPq2Ym_3iPbrslzIA_gQOa4"
+            "https://drive.google.com/uc?export=view&id=1htbtBIZIaQH_4gBlN9lh2YBk9azdaijg",
+            "https://drive.google.com/uc?export=view&id=1IIYwV_E8qUg-sOUbfY0ZgG08ywkQck_g",
+            "https://drive.google.com/uc?export=view&id=1Ouy4waqjIkc3WkKbmd7XHbCX4dQiCz6m",
+            "https://drive.google.com/uc?export=view&id=1Nwqh1Bh8SiRfVm0h3VUpDhA_XPokx_DM",
+            "https://drive.google.com/uc?export=view&id=1dlELKgtl9dJl4bP19UFUBJEWevhS-vpZ"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "Packaging will be good there will be full safety of the product.",
-        "PackSize": "640 x 450 mm only for 5kg rice packaging bag",
-        "Specialpackagingfeature": "Solid durable packaging with interior food grade quality packing material",
-        "Price": 7.05,
-        "Availability": "In stock",
+        "PackagingMaterial": "Corrugated ",
+        "PackSize": "12 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control, ",
+        "Price": "$ 5.48 - 7.48 / pack ",
+        "Availability": "In stock ",
         "Preparation_instructions": [
-            "Khichdi is basically a simple to cook, one-pot dish that is highly nutrient rich. bengalis take this one notch higher by using an aromatic gobindhobhog rice.",
-            "1.wash the rice repeatedly to remove the dirt and starch",
-            "2.spread the rice on a plate and allow to dry completely",
-            "3.in a wok or kadai, dry roast the dal for 4-5 minutes until a beautiful aroma fills the kitchen and the dal changes color",
-            "4.separate the dal in a bowl",
-            "5.wash the dal in cold water only once",
-            "6.in a wok, heat oil and fry the potatoes with a pinch of turmeric until the potato pieces of the bengali khichdi turn golden in color",
-            "7.separate the potato and proceed to fry the cauliflower florets in the same way"
+            "Selection, washing, cutting, scooping out the seeds, peeling, slicing, serving, storage."
         ],
         "Serving_instructions": [
-            "We should eat this type of rice immediately after cooking then only we can understand how delicious the rice is we show eat this through our own hands then we can feel the taste of this rice."
+            "Fresh and simple, fruit salad, smoothies and smoothie bowls, papaya salsa, papaya ice cream, grilled papaya."
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "11",
+        "Timestamp": "2023-07-01T20:46:56.528Z",
+        "HS_Code": "10063020",
+        "Title": "Basmati sella 1401 ",
+        "Type": "Rice",
+        "Category": "Premium ",
+        "Description": [
+            "Experience the wonderful taste and appetizing aroma of basmati rice 1401. fragrant basmati rice with an average grain length of 7.3mm."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=13UXuxl3oo9h2dAkjhGhlqZ2A-p4Ta3FS",
+            "https://drive.google.com/uc?export=view&id=1sO3rIM-vUI8HqoPYJ9QK8XcTWbz-NpUf"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag ",
+        "PackSize": "5 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control,",
+        "Price": "$ 6.95 - 8.95 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Rinse the rice, soaking (optional), water-to-rice ratio, cooking on stovetop, cooking in a rice cooker, seasoning (optional)."
+        ],
+        "Serving_instructions": [
+            "Plain rice, biryani, pilaf, fried rice, rice salad, stuffed vegetables."
         ],
         "Storage_instructions": "Dry storage"
     },
     {
-        "ID": "7",
-        "Timestamp": "2023-06-24T19:56:50.435Z",
-        "HS_code": "10063010",
-        "Title": "Govindo bhog rice",
+        "ID": "12",
+        "Timestamp": "2023-07-01T20:58:49.556Z",
+        "HS_Code": "10063020",
+        "Title": "Basmati steam rice 1718",
         "Type": "Rice",
-        "Category": "Special aromatic",
+        "Category": "Premium ",
         "Description": [
-            "Gobindo bhog is a small grained white scented rice from west bengal. it has a sweet, buttery flavour with a wonderful mouthfeel. slightly sticky when cooked, it is used to make many bengali dishes. it is a key ingredient used for preparing offerings to govindaji or lord krishna and cooked especially on auspicious days. we have used gobindo bhog to make sweets, kheer and even risotto. because the rice sticks together, the consistency of the dish prepared is excellent. a definite must-try rice. once you use it, you will love it!"
+            "1718 steamed basmati rice has long, thin grains (8.1 mm) with very rare grain fineness, very good core length after cooking (17.0 mm), medium amylose content (22.2%) and strong aroma."
         ],
         "ProductImage": [
-            "https://drive.google.com/uc?export=view&id=1dUkA_J03MgITUqhRWLgyG8PTjdIly6G4",
-            "https://drive.google.com/uc?export=view&id=1WoJIy7wLofHIb_YsCCCGqZdB7es75eJs",
-            "https://drive.google.com/uc?export=view&id=1YkRoLxM-s6ATr4ME1Info_lWfHzalfzx"
+            "https://drive.google.com/uc?export=view&id=1Sk2EajPCMyGKKgl9Dir9NgKldqtCImVq",
+            "https://drive.google.com/uc?export=view&id=1VcZOFpY2xvGrsg61ng4L_gSNMrOLi57N"
         ],
         "Origin": "Directly from farm",
-        "PackagingMaterial": "We use quality approved packaging materials to pack our gobindo bhog grain rice and deliver to the clients within committed time frame.",
-        "PackSize": "640 x 450 mm only for 5 kg",
-        "Specialpackagingfeature": "There will be total safety of the product.there will no chances of any damages.",
-        "Price": 7.05,
-        "Availability": "In stock always",
+        "PackagingMaterial": "Non-woven ",
+        "PackSize": "2 kg (customise)",
+        "Specialpackagingfeature": "Breathability, durability, reusability, environmental friendliness, lightweight, cost-effectiveness, customizability, water resistance.",
+        "Price": "$ 3.14 - 4.14 / pack ",
+        "Availability": "In stock ",
         "Preparation_instructions": [
-            "1.rinse the gobindobhog rice thoroughly in cold water and let it soak for about 20-30 minutes.",
-            "2.in a pot or saucepan, add 2 cups of water and bring it to a boil.",
-            "3.drain the rice and add it to the boiling water.",
-            "4.add salt and ghee (if using) and stir well.",
-            "5.cover the pot with a tight-fitting lid and reduce the heat to low.",
-            "6.let the rice cook for about 15-20 minutes or until all the water is absorbed and the rice is tender and fluffy.",
-            "7.turn off the heat and let the rice sit for 5-10 minutes before fluffing it with a fork.",
-            "8.serve the gobindobhog rice hot with your favorite curry or side dish."
+            "Rinse the rice, soak the rice (optional), boil water, add salt and spices (optional), add rice, cook the rice, check for doneness, drain excess water, fluff the rice,basmati 1718 steam rice, as cooking times and water ratios may vary slightly."
         ],
         "Serving_instructions": [
-            "We should eat this rice immediately after cooking then only we can understand how delicious the rice is and we should eat through our own hands then we can feel the taste."
+            "Plain rice, biryani, pilaf, rice bowls, fried rice, rice salad, feel free to experiment with different flavors, spices, and ingredients to create your own unique recipes using this aromatic rice."
         ],
         "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "13",
+        "Timestamp": "2023-07-01T21:12:48.114Z",
+        "HS_Code": "10063020",
+        "Title": "Basmati steam 1401",
+        "Type": "Rice",
+        "Category": "Premium ",
+        "Description": [
+            "Basmati 1401 steam rice is prized for its long grains, aromatic fragrance, and fluffy texture. its cooking characteristics and versatility make it a preferred choice for many rice-based recipes. whether served as a simple side dish or incorporated into elaborate dishes, basmati 1401 steam rice adds a delightful aroma and taste to any culinary creation."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1XGDazkvMdGL_uyzDisFCDdfCpT-kbGv6",
+            "https://drive.google.com/uc?export=view&id=1Qs9FVSp2HnrLG51TwUQ_M4W5e655Y6sA"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Breathability, durability, reusability, environmental friendliness, lightweight, cost-effectiveness, customizability, water resistance.",
+        "Price": "$ 1.40 - 1.60 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Rinse the rice, soak the rice (optional), boil water, add salt and spices (optional), add rice, cook the rice, check for doneness, drain excess water, fluff the rice, seasoning (optional)."
+        ],
+        "Serving_instructions": [
+            "Plain rice, biryani, pilaf, rice bowls, fried rice, rice salad,  feel free to experiment with different flavors, spices, and ingredients to create your own unique recipes using this aromatic rice. enjoy its delightful fragrance and taste as it enhances your meals."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "14",
+        "Timestamp": "2023-07-01T22:02:22.568Z",
+        "HS_Code": "10063020",
+        "Title": "Basmati traditional ",
+        "Type": "Rice",
+        "Category": "Premium ",
+        "Description": [
+            "It  is widely demanded all over the world due to its characteristics such as excellent taste, high nutrient content, mesmerizing taste and ease of preparation.traditional basmati rice is a type of long-grain rice grown in india known for its aroma and delicate, nuanced flavor."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1qWUu8N4nVGkP2vVVcwXepkCFNpMiT6YY",
+            "https://drive.google.com/uc?export=view&id=1eIvtHTRdXYHicNdA3B_iG6gQk2woOMel",
+            "https://drive.google.com/uc?export=view&id=1KU6MrP8LrOI1qr-Tl58G20r0qhBUXY7Y"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Non-woven bag ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Breathability, durability, reusability, environmental friendliness, lightweight, cost-effectiveness, customizability, water resistance,",
+        "Price": "$ 1.45 - 1.65 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Rinse the rice, soak the rice (optional), boil water, add salt and spices (optional), add rice, cook the rice, check for doneness, drain excess water, fluff the rice, enjoy your delicious and aromatic traditional basmati rice as a delightful accompaniment to a variety of cuisines and dishes."
+        ],
+        "Serving_instructions": [
+            "Transfer to a serving dish, garnish (optional), serve hot, portioning, accompaniments, enjoy the aromatic experience, ",
+            "Remember to handle the traditional basmati rice gently when serving to maintain its delicate texture and appearance. this rice variety is highly regarded for its long grains, aromatic profile, and ability to elevate the dining experience."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "15",
+        "Timestamp": "2023-07-01T22:38:58.182Z",
+        "HS_Code": "08045020",
+        "Title": "Mango dudhiya malda",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Dudhiya malda mango is a delicacy known to generations all over the country and even abroad because of its sweet flavour, thin skin, small seed, less fibre, milking creamy yellow pulp, and unique sweet aroma which is full of the rich promise of pleasure. "
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1_3CFM2irMmRprc8uDU2u1nQRXzenTjjW",
+            "https://drive.google.com/uc?export=view&id=1Np1fiuECgN4J-adQZVlHFJa0nvEDzKkt",
+            "https://drive.google.com/uc?export=view&id=14mHfzGbvAea4Cdc9DLl-ugMOvHEkK62o",
+            "https://drive.google.com/uc?export=view&id=12wXqo7F_c1vzMnjDPcWQe1piqoX74PzI",
+            "https://drive.google.com/uc?export=view&id=1nW-5QyDg_qjsoeijv0l2nlA0vQGOW32i"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control.",
+        "Price": "$ 5.80 - 7.80 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience. enjoy the versatility of mango in these various serving options!"
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "16",
+        "Timestamp": "2023-07-01T23:21:14.526Z",
+        "HS_Code": "08045020",
+        "Title": "Langra mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Langra mangoes are known for their sweet and tangy flavor and are primarily found in india. each mango weighs approximately 300-350 grams.",
+            "100% carbide free and naturally matured,100% natural, great taste, rich in vitamins a, c, iron, folic acid and magnesium."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1o9XFra9krViX9rOgsWZh0baj7BSTopKO",
+            "https://drive.google.com/uc?export=view&id=1PX7hEd9qlXxO-_GNVTCk55ucZXB8VJbx",
+            "https://drive.google.com/uc?export=view&id=14rGlXdpizX1ToqjmdRtD9--cXtnpzlEJ",
+            "https://drive.google.com/uc?export=view&id=13Qh6_sHREcNmNMA0R0zELXIC7bxMxocH"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "10 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control,",
+        "Price": "$ 9.70 - 12.70 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe langra mango, washing the mango, selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience. enjoy the unique and delectable flavors of langra mango in these various serving suggestions!"
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "17",
+        "Timestamp": "2023-07-01T23:21:25.758Z",
+        "HS_Code": "08045020",
+        "Title": "Langra mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Langra mangoes are known for their sweet and tangy flavor and are primarily found in india. each mango weighs approximately 300-350 grams.",
+            "100% carbide free and naturally matured,100% natural, great taste, rich in vitamins a, c, iron, folic acid and magnesium."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1GZblpdWIT1rkWn_mXE9wYhkn0aCPELrC",
+            "https://drive.google.com/uc?export=view&id=1q4RXN9N7L__XbxlL8PVbpYINfCWu9LaD",
+            "https://drive.google.com/uc?export=view&id=1w2rFZUNodYIL7SjgI7knb61pe5db6nct",
+            "https://drive.google.com/uc?export=view&id=1xiA8X3fFX9-JjhvWpbBguZJLt2p90k28"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "10 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control,",
+        "Price": "$ 9.70 - 12.70 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe langra mango, washing the mango, selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience. enjoy the unique and delectable flavors of langra mango in these various serving suggestions!"
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "18",
+        "Timestamp": "2023-07-02T23:35:17.531Z",
+        "HS_Code": "08045020",
+        "Title": "Alphonso mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "The alphonso mango is a premium variety of mango considered to be one of the best in terms of flavor, aroma, and texture. it is often hailed as the \"king of mangoes\" and is highly sought after for its exceptional taste."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1FGxeMcYTbx0TXb9SCC_oWP4CD2Xp6qXn",
+            "https://drive.google.com/uc?export=view&id=1732GTTg5wBbkAhkP0cqKMXWCqpCD5QRG",
+            "https://drive.google.com/uc?export=view&id=1m8ZFotKVBJwwXCpQxU8deFfnYBOJJWoB",
+            "https://drive.google.com/uc?export=view&id=1Lo4LJvAnalDgVHGeqytyMTknLtCcG1XB",
+            "https://drive.google.com/uc?export=view&id=1p5aMKIIKU9cae4MEZqoZaiFzbFwvOjW8"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control.",
+        "Price": "$ 8.80 - 9.80 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience. alphonso mangoes are a delicacy, so take the time to savor and enjoy their exquisite flavor in your preferred serving style."
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "19",
+        "Timestamp": "2023-07-02T23:45:35.515Z",
+        "HS_Code": "08045020",
+        "Title": "Amrapali mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "The amrapali mango is cherished for its delightful taste, appealing aroma, and vibrant appearance. its popularity among mango lovers continues to grow, making it a favored choice during the mango season."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1hlwWdesDtvjeRVA14VxfkIWaqJP-WAlD",
+            "https://drive.google.com/uc?export=view&id=11QCNWArNVkDhjWdGqunWUqiT1R1BZA7-",
+            "https://drive.google.com/uc?export=view&id=1uazqwRWBmqLf-FtU89FxXjJC-_oSj78u",
+            "https://drive.google.com/uc?export=view&id=1eyBRbKUw2BQoUhEXaogtAqICYjEBieNo"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control.",
+        "Price": "$ 5.84 - 6.84 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience. smoothie drinks: blend amrapali mangoes with yogurt, milk, or a dairy-free alternative to make a refreshing mango lassi or smoothie drink."
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "20",
+        "Timestamp": "2023-07-03T00:12:49.756Z",
+        "HS_Code": "08045020",
+        "Title": "Himsagar mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Himsagar mango is a popular mango variety primarily grown in the state of west bengal, india. it is highly regarded for its sweet taste, smooth texture, and delightful aroma. himsagar mangoes are named after the town of himsagar in west bengal, where they are extensively cultivated."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1B-9fUJT3d8RAN5KXzuzn00yV9OlbY4Jx",
+            "https://drive.google.com/uc?export=view&id=1EeLyZvhB26Du1oJvFqkjg1o5BmZjIMWH",
+            "https://drive.google.com/uc?export=view&id=1HOgJIx8twbomQwln5kvKXlSVM-_PDXAs",
+            "https://drive.google.com/uc?export=view&id=1oOnVUAzQk1Ttn8OgflkDSmYjjuIdlOkl"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control,biodegradable, compostable materials, protective cushioning",
+        "Price": "$ 5.76 - 6.76 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts.remember to choose ripe and flavorful mangoes for the best taste experience."
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "21",
+        "Timestamp": "2023-07-03T00:26:07.836Z",
+        "HS_Code": "08045020",
+        "Title": "Totapuri mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Totapuri mangoes are highly sought after and exported to various countries due to their distinctive taste and culinary applications. whether eaten fresh, used in dishes, or enjoyed as a refreshing beverage, this mango variety is cherished by mango enthusiasts around the world."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1GPPng1O7FOcqDNour0EDKfCCJxXpxuG6",
+            "https://drive.google.com/uc?export=view&id=10su57AlHRDSr_vosXlExhhNbBhb3N_LB",
+            "https://drive.google.com/uc?export=view&id=18M3I2Zmoipwqmw3YZ4eLrh-LT8jyPiGJ",
+            "https://drive.google.com/uc?export=view&id=1T5BvnHQhehxs-Bd6ru28iUS3wgA2XTq0"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control, mesh or breathable bags  biodegradable, compostable materials, protective cushioning, reusable packaging",
+        "Price": "$ 6.24 - 7.24 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi , desserts.remember to serve totapuri mangoes chilled for a more refreshing experience. enjoy the sweet and tangy flavor of this unique mango variety!"
+        ],
+        "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "22",
+        "Timestamp": "2023-07-03T00:39:45.576Z",
+        "HS_Code": "08045020",
+        "Title": "Fazli mango ",
+        "Type": "Fruit",
+        "Category": "Premium ",
+        "Description": [
+            "Fazli mango, also known as fazli aam, is a variety of mango that is predominantly cultivated in the malda district of west bengal, india. it is named after haji kalimullah khan, who is known as the \"mango man\" for his expertise in growing and promoting different mango varieties. fazli mangoes are renowned for their large size, distinct shape, and delectable flavor."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1nNpbSjIlPyyk_6VqQCnbszv7v-YmQuZ_",
+            "https://drive.google.com/uc?export=view&id=1BGv_99PHgEk1m2v2WPuRHLviOIDfsmz3",
+            "https://drive.google.com/uc?export=view&id=1UeSUu7QdECF01APiY4jHSfnd4RTCQrgJ"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Corrugated box ",
+        "PackSize": "8 kg (customise)",
+        "Specialpackagingfeature": "Ventilation, moisture resistance, cushioning, size and structure, ripening control, mesh or breathable bags, biodegradable or compostable materials, protective cushioning, reusable packaging.",
+        "Price": "$ 8.40 - 8.60 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Selecting a ripe mango, washing the mango, peeling the mango, removing the pit, slicing or dicing the mang, fresh fruit salad, smoothies,",
+            "Salsas and chutneys, mango desserts: use mango as an ingredient in desserts like mango mousse, mango sorbet, or mango cheesecake."
+        ],
+        "Serving_instructions": [
+            "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts. remember to enjoy fazli mangoes immediately after cutting, as they tend to lose their freshness and sweetness if left exposed for too long. with their sweet and rich flavor, fazli mangoes are sure to be a delectable treat during the mango season."
+        ],
+        "Storage_instructions": "Cold storage"
     }
 ]
