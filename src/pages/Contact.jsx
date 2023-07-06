@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "../App.css";
+import images from "../assets/data/imagesrc.json";
+import Photoslider from "../components/Photoslider";
 
 const Contact = () => {
+  const imgsrc = images.officeimg;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -38,53 +41,46 @@ const Contact = () => {
 
   return (
     <div className="container-fluid">
-      <h2 className="text-center mb-4">Contact Us</h2>
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <img
-            src="https://th.bing.com/th/id/R.e0e8423934684b58310805f00dd0550b?rik=uwuWqcxyxLhY6g&pid=ImgRaw&r=0"
-            class="img-fluid img-thumbnail mb-2"
-            style={{
-              width: '41rem',
-              height: '292px',
-              backgroundColor: 'rgba(0,0,255,.1)',
-            }}
-            alt="ExportImport"
-          />
           <div className="card shadow">
             <h4 className="card-header">Contact Information</h4>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item d-flex align-items-center">
-                <i className="fab fa-whatsapp me-2"></i>
+              <li
+                className="list-group-item d-flex hoverable"
+                onClick={openWhatsAppChat}
+              >
+                <i className="fab fa-whatsapp me-2"></i> Whatsapp Us
                 +919433242956
-                <button
-                  className="btn btn-dark ms-auto"
-                  onClick={openWhatsAppChat}
-                >
-                  WhatsApp
-                </button>
               </li>
-              <li className="list-group-item d-flex align-items-center">
+              <li
+                className="list-group-item d-flex hoverable"
+                onClick={sendEmail}
+              >
                 <i className="fas fa-envelope me-2"></i>
-                ahlesunnatglobal@gmail.com
-                <button className="btn btn-dark ms-auto" onClick={sendEmail}>
-                  Email
-                </button>
+                Email Us - ahlesunnatglobal@gmail.com
               </li>
-              <li className="list-group-item d-flex align-items-center">
+              <li
+                className="list-group-item d-flex hoverable"
+                onClick={openGoogleMaps}
+              >
                 <i className="fa-sharp fa-solid fa-location-dot me-2"></i>
-                Gangaprasad colony, Malda, Kolkata, West Bengal, India - 732207
-                <button
-                  className="btn btn-dark ms-auto"
-                  onClick={openGoogleMaps}
-                >
-                  View on Map
-                </button>
+                View it on Map - Gangaprasad colony, Malda, Kolkata, West
+                Bengal, India - 732207
               </li>
             </ul>
           </div>
+          <div
+            className="img"
+            style={{
+              width: "auto",
+              height: "330px",
+            }}
+          >
+            <Photoslider imgsrcs={imgsrc} />
+          </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 h-100 d-inline-block">
           <div className="card shadow">
             <h4 className="card-header">Send us a Message</h4>
             <form className="p-2" onSubmit={handleSubmit}>

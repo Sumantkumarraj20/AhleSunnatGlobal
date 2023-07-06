@@ -9,7 +9,7 @@ const PoductCard = ({ product }) => {
   const randomImage = ProductImage[randomIndex];
   const defaultProductImage = randomImage || "https://www.groups3.com/wp-content/uploads/2021/02/productos-ecommerce.jpg";
   return (
-    <div className="card m-2 shadow">
+    <Link to={`/productdetails/${ID}`} className="card hoverable text-decoration-none m-2 shadow">
       <div className="product-card mb-0">
         <img
           src={defaultProductImage}
@@ -28,7 +28,7 @@ const PoductCard = ({ product }) => {
           View Details
         </Link>
       </div>
-    </div>
+    </Link>
   );
 };
 

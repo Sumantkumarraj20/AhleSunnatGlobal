@@ -684,5 +684,397 @@
             "Fresh mango, fruit salad, smoothies and smoothie bowls, mango salsa, mango lassi, desserts. remember to enjoy fazli mangoes immediately after cutting, as they tend to lose their freshness and sweetness if left exposed for too long. with their sweet and rich flavor, fazli mangoes are sure to be a delectable treat during the mango season."
         ],
         "Storage_instructions": "Cold storage"
+    },
+    {
+        "ID": "23",
+        "Timestamp": "2023-07-03T23:37:42.563Z",
+        "HS_Code": "09023030",
+        "Title": "Assam black tea ",
+        "Type": "Tea",
+        "Category": "General tea",
+        "Description": [
+            "Assam black tea is a flavorful and robust tea with a deep reddish-brown liquor. its bold and malty taste, along with its awakening properties, make it a favorite among tea enthusiasts worldwide. whether enjoyed plain or in various blends, assam black tea offers a delightful tea-drinking experience."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1IRoFXY8ucqH1XwuvMFuvsMh1ENujBzy_",
+            "https://drive.google.com/uc?export=view&id=1_CE7_mEFdPm9YeGYMLFubN1BwWlfPnkl"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg  (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 5.45 - 6.45 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Boil water, warm the teapot, measure the tea, add the tea to the teapot, pour the water, steep the tea, strain and serve, add milk and sugar (optional), enjoy, remember that these instructions are general guidelines, and you can adjust the steeping time, tea-to-water ratio, and additives to suit your preferences. experimentation is encouraged to find your perfect cup of assam black tea."
+        ],
+        "Serving_instructions": [
+            "Tea pot or individual cups, tea strainer, milk and sugar accompaniments, serve hot or cold,    presentation, explain and enjoy, refills, remember to adapt the serving instructions based on the occasion, the preferences of your guests, and any cultural or regional practices. assam black tea is a versatile beverage enjoyed by many, and serving it with care and attention will enhance the tea-drinking experience."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "24",
+        "Timestamp": "2023-07-03T23:58:27.543Z",
+        "HS_Code": "09024090",
+        "Title": "Premium ctc black tea ",
+        "Type": "Tea",
+        "Category": "General tea ",
+        "Description": [
+            "Premium ctc or \"crush, tear, twist\" is a tea processing method in which black tea leaves are passed through a series of cylindrical rollers. the sharpness of the rollers crushes, tears and twists the leaves into small, hard, powerful balls."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1ciJSRODziANnOzSsflG9i_6l-VayZRHe",
+            "https://drive.google.com/uc?export=view&id=19j1KlvtU_nZoRkO84IebvCQfj-rWcStH"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 4.71 - 5.71 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Boil water, warm the teapot, measure the tea, add the tea to the teapot, pour the water, steep the tea, strain and serve, add milk and sugar (optional), enjoy and you can adjust the steeping time, tea-to-water ratio, and additives according to your taste preferences. experimentation is encouraged to find the perfect balance for your desired cup of ctc black tea."
+        ],
+        "Serving_instructions": [
+            "Tea pot or individual cups, tea strainer, milk and sugar accompaniments, serve hot or cold,    presentation, explain and enjoy, refills, ctc black tea offers a strong and brisk cup, and serving it with thoughtfulness and attentiveness will elevate the tea-drinking experience."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "25",
+        "Timestamp": "2023-07-04T00:16:48.855Z",
+        "HS_Code": "09024020",
+        "Title": "Darjeeling black tea ",
+        "Type": "Tea",
+        "Category": "General tea ",
+        "Description": [
+            "Darjeeling black tea is a highly prized tea variety known for its unique flavor, delicate aroma, and exceptional quality. with its floral and fruity notes, it provides a refined and nuanced tea-drinking experience that captivates tea enthusiasts worldwide."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1AxaPLy248N3-CcRdFYQfivUxWUSzJ0O_",
+            "https://drive.google.com/uc?export=view&id=1ZpRYS96vqU0dNcP6wxNopa59Ml7iNNJT"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 11.25 - 11.50 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Boil water, warm the teapot, measure the tea, add the tea to the teapot, pour the water, steep the tea, strain and serve, add milk and sugar (optional), enjoy and experimentation is encouraged to find your perfect cup of darjeeling tea."
+        ],
+        "Serving_instructions": [
+            "Tea pot or individual cups, tea strainer, milk and sugar accompaniments, serve hot or cold,    presentation, explain and enjoy, refills, remember to adapt the serving instructions based on the occasion, the preferences of your guests, and any cultural or regional practices. encourage guests to take their time, savor the aroma, and enjoy the refined and nuanced flavors of darjeeling tea. provide a brief description of the tea and its flavor profile to enhance their appreciation."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "26",
+        "Timestamp": "2023-07-04T00:40:26.455Z",
+        "HS_Code": "09023000",
+        "Title": "Darjeeling hand rolled green ",
+        "Type": "Tea",
+        "Category": "General tea ",
+        "Description": [
+            "Darjeeling hand rolled green tea offers a refined and delightful tea-drinking experience. its elegant appearance, delicate flavors, and captivating aroma make it a favored choice among green tea enthusiasts who appreciate the artistry and subtleties of this exquisite tea."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1GGc-egyO9GlRy9m9-_r2rBzva46FW6Kg",
+            "https://drive.google.com/uc?export=view&id=12FgyQc5j3oGjoFZC3Bj43Iqmm3ogHfx0"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 11.25 - 11.55 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Boil water, warm the teapot, measure the tea, add the tea to the teapot, pour the water, steep the tea, strain and serve, add milk and sugar (optional), enjoy, pour the prepared darjeeling hand rolled green tea into cups or teacups and savor its delicate flavors and aromas. you can enjoy it as is, without any additions, to fully appreciate its unique character."
+        ],
+        "Serving_instructions": [
+            "Prepare the tea, use preheated teacups, presentation, appreciation, sip and savor, pairing, conversation, multiple infusions, darjeeling hand rolled green tea with care, providing a pleasant and enjoyable experience for yourself and your guests. "
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "27",
+        "Timestamp": "2023-07-04T01:04:20.011Z",
+        "HS_Code": "09024000",
+        "Title": "Darjeeling classic green tea ",
+        "Type": "Tea",
+        "Category": "General tea ",
+        "Description": [
+            "Darjeeling classic green tea offers a refined and enjoyable tea-drinking experience. its delicate flavors, captivating aroma, and vibrant green appearance make it a popular choice among green tea enthusiasts who appreciate the subtleties and sophistication of this tea variety."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1gta-F3VMIFl9PQGUJoVxx5AzanAzELPA",
+            "https://drive.google.com/uc?export=view&id=10WeIrNRTNxUnrSjud_W0P3z7wqAnsfye"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 9.68 - 10.68 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Boil water, warm the teapot, measure the tea, add the tea to the teapot, pour the water, steep the tea, strain and serve, add milk and sugar (optional), enjoy, remember that these instructions are general guidelines, and you can adjust the steeping time, tea-to-water ratio, and additives to suit your preferences. "
+        ],
+        "Serving_instructions": [
+            "Prepare the tea, use preheated teacups, presentation, appreciation, sip and savor, pairing, conversation, multiple infusions: darjeeling classic green tea leaves can often be steeped multiple times, revealing different flavors and nuances with each infusion. inform your guests about the possibility of multiple infusions, allowing them to enjoy the tea to its fullest."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "28",
+        "Timestamp": "2023-07-04T13:12:37.760Z",
+        "HS_Code": "09023020",
+        "Title": "Caramel spice tea",
+        "Type": "Tea",
+        "Category": "Tea blend ",
+        "Description": [
+            "Caramel spice tea offers a delightful combination of caramel, spices, and tea, resulting in a warming and indulgent beverage with a balance of sweetness and aromatic flavors."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1ZN62HcIE76xS__d5qmabVM1qkzCQFB2q",
+            "https://drive.google.com/uc?export=view&id=1u6A7RQat5v-RoFP0LxLPrJXbcZnLZjZL",
+            "https://drive.google.com/uc?export=view&id=1jvZkRoGr5ddOiedVEW-tVPp2S3RtG8DA"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 12.59 - 12.89 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "Bring the water to a boil in a saucepan or kettle.",
+            "",
+            "Once the water is boiling, remove it from heat and add the tea bags. let the tea steep for about 3 to 5 minutes, or follow the instructions on the tea packaging for the recommended steeping time.",
+            "",
+            "While the tea is steeping, in a separate small saucepan, warm the milk over low heat. do not let it boil, but heat it until it is hot and steaming.",
+            "",
+            "In a mug, combine the caramel syrup, ground cinnamon, ground nutmeg, and ground cloves. stir the mixture until the spices and caramel are well combined.",
+            "",
+            "Once the tea has finished steeping, remove the tea bags and discard them.",
+            "",
+            "Pour the hot tea into the mug with the caramel and spice mixture. stir well to combine.",
+            "",
+            "Slowly pour the warm milk into the mug, stirring continuously.",
+            "",
+            "Taste the tea and add sweetener according to your preference. stir until the sweetener is dissolved.",
+            "",
+            "Serve the caramel spice tea immediately while it is still hot.",
+            "",
+            "Optional: you can garnish the tea with a sprinkle of cinnamon on top or add a dollop of whipped cream for extra indulgence.",
+            "",
+            "Enjoy your homemade caramel spice tea!"
+        ],
+        "Serving_instructions": [
+            "Serve the caramel spice tea immediately while it is still hot.",
+            "",
+            "Optional: you can garnish the tea with a sprinkle of cinnamon on top or add a dollop of whipped cream for extra indulgence.",
+            "",
+            "Enjoy your homemade caramel spice tea!",
+            "Pour the prepared caramel spice tea into individual serving mugs or cups.",
+            "",
+            "If desired, you can garnish each serving with a sprinkle of cinnamon on top. this adds a touch of flavor and visual appeal.",
+            "",
+            "For an extra indulgent treat, you can add a dollop of whipped cream on top of each serving. this adds creaminess and richness to the tea.",
+            "",
+            "Serve the caramel spice tea immediately while it is still hot. the warmth and aromatic flavors are best enjoyed right away.",
+            "",
+            "Accompany the tea with some biscuits, cookies, or other snacks of your choice for a delightful tea-time experience.",
+            "",
+            "If serving to guests or for a special occasion, consider using decorative teacups or mugs to enhance the presentation.",
+            "",
+            "Enjoy the caramel spice tea while it's still warm and flavorful. sip slowly and savor the delightful combination of caramel, spices, and tea.",
+            "",
+            "Remember, the serving instructions can be customized based on personal preferences and the occasion. feel free to experiment with different garnishes or accompaniments to make the caramel spice tea uniquely yours."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "29",
+        "Timestamp": "2023-07-04T13:49:41.670Z",
+        "HS_Code": "0902",
+        "Title": "Bombay cutting tea ",
+        "Type": "Tea",
+        "Category": "Blend tea ",
+        "Description": [
+            "Bombay cutting tea is a beloved beverage in mumbai, often enjoyed as a morning pick-me-up, an afternoon refreshment, or a way to socialize with friends and colleagues. it is commonly found at street stalls, small tea shops, and local cafes throughout the city, where people gather to savor its aromatic flavors and embrace the bustling energy of mumbai life."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1wbx2Hem9DIhRwG0F0nMEs5frzAyoJOXe",
+            "https://drive.google.com/uc?export=view&id=1g2huE7maYUe6rGg6sxILyIsK_v93YMhN",
+            "https://drive.google.com/uc?export=view&id=1WbJfu9cKaAbJCUVJm10MRm6-JMURNqtc",
+            "https://drive.google.com/uc?export=view&id=1lQFvfgi0ldT-xxw851Z3FGGZDEFb8XzS"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 8.24 - 8.54 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "2 cups water",
+            "2 tablespoons loose tea leaves or tea powder",
+            "1 cup milk",
+            "2 tablespoons sugar (adjust according to taste)",
+            "1 teaspoon grated ginger",
+            "2-3 green cardamom pods, crushed",
+            "2-3 cloves",
+            "1 small cinnamon stick",
+            "",
+            "In a saucepan, add water and bring it to a boil over medium heat.",
+            "",
+            "Once the water is boiling, add the tea leaves or tea powder, grated ginger, crushed cardamom pods, cloves, and cinnamon stick. stir well to combine.",
+            "",
+            "Reduce the heat to low and let the tea simmer for about 3-4 minutes. this allows the flavors of the spices to infuse into the tea.",
+            "",
+            "After simmering, add the milk to the saucepan and stir gently.",
+            "",
+            "Increase the heat to medium-low and let the tea simmer for another 2-3 minutes. keep an eye on it to prevent it from boiling over.",
+            "",
+            "Add sugar according to your taste preferences and stir until it dissolves completely.",
+            "",
+            "Continue simmering the tea for another 2-3 minutes, stirring occasionally.",
+            "",
+            "Once the tea reaches your desired strength and flavor, remove the saucepan from the heat.",
+            "",
+            "Strain the tea using a fine mesh strainer or a tea strainer to remove the tea leaves and spices.",
+            "",
+            "Serve the hot bombay cutting tea in small glass cups ",
+            "",
+            "Enjoy the aromatic and flavorful bombay cutting tea while it's still hot. ",
+            "",
+            "Note: feel free to adjust the amount of milk, sugar, and spices according to your personal preferences. the measurements provided are just a starting point, and you can customize the tea to suit your taste."
+        ],
+        "Serving_instructions": [
+            "Choose the right serving cups, prepare the serving area, pour the tea, serve hot, accompany with snacks, serve with style, enjoy the experience, feel free to add your personal touch and create a delightful experience when serving bombay cutting tea."
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "30",
+        "Timestamp": "2023-07-04T14:12:28.567Z",
+        "HS_Code": "09024010",
+        "Title": "Assam masala tea ",
+        "Type": "Tea",
+        "Category": "Blend tea ",
+        "Description": [
+            "Assam masala tea is not only known for its delightful taste but also for its potential health benefits. assam black tea is believed to contain antioxidants and may have potential cardiovascular and digestive health benefits. additionally, the spices used in masala tea are known for their aromatic and medicinal properties, such as aiding digestion, improving circulation, and providing a sense of warmth and comfort."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1pJlm9NrVdaB6DfwR5zdtvPZmaxR5o-A7",
+            "https://drive.google.com/uc?export=view&id=1c6fAtva18jtiV76V_IqF5nrR2q2ZcYxe",
+            "https://drive.google.com/uc?export=view&id=1Dwdvej5_iSczsX_Hx6iQ2SrUTMy17L09",
+            "https://drive.google.com/uc?export=view&id=1F5NoB9i-x9dtmgu8-hdH33Zpp2F8we6C"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 8.24 - 8.54 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "2 cups water",
+            "2 teaspoons assam black tea leaves",
+            "1 cup milk",
+            "2-3 teaspoons sugar (adjust according to taste)",
+            "1-inch piece of ginger, grated",
+            "2-3 green cardamom pods, crushed",
+            "1 cinnamon stick",
+            "4-5 cloves",
+            "4-5 black peppercorns (optional)",
+            "",
+            "In a saucepan, bring water to a boil over medium heat.",
+            "",
+            "Once the water is boiling, add the assam black tea leaves, grated ginger, crushed cardamom pods, cinnamon stick, cloves, and black peppercorns (if using). stir well to combine.",
+            "",
+            "Reduce the heat to low and let the tea and spices simmer for about 3-4 minutes. this allows the flavors to infuse into the water.",
+            "",
+            "Add the milk to the saucepan and stir gently.",
+            "",
+            "Increase the heat to medium-low and let the tea simmer for another 2-3 minutes. keep an eye on it to prevent it from boiling over.",
+            "",
+            "Add sugar according to your taste preferences and stir until it dissolves completely.",
+            "",
+            "Continue simmering the tea for another 2-3 minutes, stirring occasionally.",
+            "",
+            "Once the tea reaches your desired strength and flavor, remove the saucepan from the heat.",
+            "",
+            "Strain the tea using a fine mesh strainer or a tea strainer to remove the tea leaves and spices.",
+            "",
+            "Serve the hot assam masala tea in teacups or mugs.",
+            "",
+            "Enjoy the aromatic and flavorful assam masala tea while it's still hot",
+            ""
+        ],
+        "Serving_instructions": [
+            "Choose the right serving cups, prepare the serving area, pour the tea, serve hot, offer accompaniments, present with style, provide stirring spoons, serve with snacks, encourage enjoyment, can be tailored based on your preferences and the occasion. feel free to add your personal touch and create a warm and inviting atmosphere when serving assam masala tea. "
+        ],
+        "Storage_instructions": "Dry storage"
+    },
+    {
+        "ID": "31",
+        "Timestamp": "2023-07-04T15:31:16.902Z",
+        "HS_Code": "09023000",
+        "Title": "Kolkata street tea ",
+        "Type": "Tea",
+        "Category": "Blend tea ",
+        "Description": [
+            "Kolkata street tea, also known as kolkata chai or kolkata cutting chai, is a popular and beloved beverage that is synonymous with the bustling streets and vibrant culture of kolkata (formerly known as calcutta), india. it is a unique style of tea that has become an integral part of the city's daily life and social fabric.",
+            "",
+            "Kolkata street tea embodies the spirit of kolkata's street culture and serves as a symbol of its people's love for tea, community, and the simple pleasures of life. it has become an integral part of the city's identity and a cherished tradition for generations."
+        ],
+        "ProductImage": [
+            "https://drive.google.com/uc?export=view&id=1n-YV0BQ9yP_2AW0BXa35p8PvmHH9qvzO",
+            "https://drive.google.com/uc?export=view&id=1_G1z88EEH_aaAY1nCbwQz_zZwMh_nrJo"
+        ],
+        "Origin": "Directly from farm",
+        "PackagingMaterial": "Pouch ",
+        "PackSize": "1 kg (customise)",
+        "Specialpackagingfeature": "Resealable zipper, matte or glossy finishes stand-up pouches, clear windows or transparent panels, tear notches, hang holes or euro slots, spouts or dispensing caps,  they are designed to improve the overall user experience, protect the product's freshness, and provide added value to both consumers and brands.",
+        "Price": "$ 9.68 - 9.88 / pack ",
+        "Availability": "In stock ",
+        "Preparation_instructions": [
+            "",
+            "2 cups water",
+            "2 teaspoons loose black tea leaves",
+            "1 cup milk",
+            "2-3 teaspoons sugar (adjust according to taste)",
+            "A small piece of ginger (optional)",
+            "Cardamom pods (optional)",
+            "Cinnamon stick (optional)",
+            "Instructions:",
+            "",
+            "In a saucepan, bring water to a boil over medium heat.",
+            "",
+            "Once the water is boiling, add the loose black tea leaves to the saucepan. if using, you can also add a small piece of ginger, a couple of crushed cardamom pods, or a small cinnamon stick for additional flavor. stir gently to combine.",
+            "",
+            "Reduce the heat to low and let the tea simmer for about 3-4 minutes. this allows the flavors of the tea and any added spices to infuse into the water.",
+            "",
+            "Add the milk to the saucepan and stir gently.",
+            "",
+            "Increase the heat to medium-low and let the tea simmer for another 3-4 minutes. this will allow the tea and milk to blend together and create a rich and creamy texture.",
+            "",
+            "Add sugar according to your taste preferences and stir until it dissolves completely.",
+            "",
+            "Continue simmering the tea for another 1-2 minutes, stirring occasionally to prevent it from boiling over.",
+            "",
+            "Once the tea reaches your desired strength and flavor, remove the saucepan from the heat.",
+            "",
+            "Strain the tea using a fine mesh strainer or a tea strainer to remove the tea leaves and any spices used.",
+            "",
+            "Serve the hot kolkata street tea in small cups or glasses.",
+            "",
+            "To achieve the signature frothy texture of kolkata street tea, you can pour the tea from one cup or glass to another in a continuous stream, holding the cups or glasses at a height. this technique helps mix the tea and create a frothy layer on top.",
+            "",
+            "Enjoy the rich and flavorful kolkata street tea while it's still hot. you can serve it as is or pair it with snacks like biscuits, samosas, or other savory treats for a complete experience."
+        ],
+        "Serving_instructions": [
+            "Choose the right serving cups, tea pot or individual cups, tea strainer, milk and sugar accompaniments, serve hot or cold,    presentation, explain and enjoy, refills, remember to adapt the serving instructions based on the occasion, the preferences of your guests, and any cultural or regional practices."
+        ],
+        "Storage_instructions": "Dry storage"
     }
 ]

@@ -1,5 +1,5 @@
 import React from "react";
-import iconPath from "../assets/icons/logo2.jpg";
+import iconPath from "../assets/icons/onlinelogomaker-070423-0133-3618-2000-transparent.png";
 import { NavLink, Link} from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
           <img
             src={iconPath}
             alt="Logo"
-            width="50"
+            width="60"
             height="40"
             className="d-inline-block align-text-center me-2 rounded"
           />

@@ -3,7 +3,7 @@ import "../App.css";
 
 const ProfileCard = (props) => {
   return (
-    <div className="d-flex align-items-center">
+    <div className="d-flex hoverable align-items-center">
       <img src={props.pic} alt="Profile" className="profile-image" />
       <div className="m-2">
         <p className="fs-5 fw-bold p-0 m-0">{props.name}</p>

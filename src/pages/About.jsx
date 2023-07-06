@@ -18,7 +18,7 @@ const About = () => {
     const shuffledArray = array.sort(() => Math.random() - 0.5);
     return shuffledArray.slice(0, numElements);
   };
-  
+
   // Randomly select five images from productImageUrls
   const randomImages = getRandomElementsFromArray(productImageUrls, 5);
 
@@ -92,7 +92,10 @@ const About = () => {
                 and customer-centric approach.
               </div>
             </div>
-            <div className="card shadow mb-2">
+            <Link
+              to="/contact"
+              className="card hoverable text-decoration-none shadow mb-2"
+            >
               <h5 className="card-header">Contact</h5>
               <div className="card-body">
                 <h5 className="card-title">Contact details</h5>
@@ -107,7 +110,7 @@ const About = () => {
                   Contact us
                 </Link>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col-md-6">
@@ -118,7 +121,18 @@ const About = () => {
               <div className="card-body">
                 <ul className="list-group list-group-flush">
                   {Members.map((member) => (
-                    <li key={member.id} className="list-group-item">
+                    <li
+                      key={member.id}
+                      className="list-group-item hoverable"
+                      onClick={() => {
+                        window.open(
+                          `https://api.whatsapp.com/send?phone=${encodeURIComponent(
+                            member.contact
+                          )}`,
+                          "_blank"
+                        );
+                      }}
+                    >
                       <ProfileCard
                         name={member.name}
                         position={member.position}
@@ -131,11 +145,12 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <div className="product-showcase">
-              <h3>Our Products</h3>
+            <div className="card hoverable p-2 mb-2">
+              <h3 className="card-hearder text-center">Our Products</h3>
               <Photoslider imgsrcs={randomImages} />
-              <Link className="btn btn-dark m-2" to="/products" >View all products on Our Product page</Link>
+              <Link to="/products" className="btn btn-dark">View our products</Link>
             </div>
+            
           </div>
         </div>
       </section>

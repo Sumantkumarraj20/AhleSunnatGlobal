@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Photoslider from "../components/Photoslider";
 import productData from "../assets/data/productdata.json";
 import { useParams } from "react-router-dom";
+import axios from "axios";
 
 const ProductPage = () => {
   const { id } = useParams();
   const product = productData.find((product) => product.ID === id);
   const {
     Timestamp,
-    HS_code,
+    HS_Code,
     Title,
     Type,
     Category,
@@ -25,7 +26,7 @@ const ProductPage = () => {
   } = product;
 
   const defaultTimestamp = Timestamp || "Not available";
-  const defaultHSCode = HS_code || "Not available";
+  const defaultHSCode = HS_Code || "Not available";
   const defaultTitle = Title || "Not available";
   const defaultType = Type || "Not available";
   const defaultCategory = Category || "Not available";
@@ -58,6 +59,30 @@ const ProductPage = () => {
   const openWhatsAppChat = () => {
     window.open("https://wa.me/+919433242956");
   };
+
+  const [nutritionalData, setNutritionalData] = useState(null);
+
+  const fetchNutritionalData = async (foodName) => {
+    try {
+      const apiKey = "Ywv1e5wrVAUgxbC8Fa8PTzjkbm57157aGpyVXbr1";
+      const response = await axios.get(
+        `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=${apiKey}&query=${foodName}&pageSize=1`
+      );
+      const food = response.data.foods[0];
+      const nutrients = food.foodNutrients.map((nutrient) => ({
+        name: nutrient.nutrientName,
+        amount: nutrient.value,
+        unit: nutrient.unitName,
+      }));
+      setNutritionalData(nutrients);
+    } catch (error) {
+      console.error("Error fetching nutritional data:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchNutritionalData(defaultTitle);
+  }, [defaultTitle]);
 
   return (
     <div className="container-fluid">
@@ -130,60 +155,49 @@ const ProductPage = () => {
       <div className="row mt-3">
         <div className="col-lg-12">
           <p className="fs-3">Nutritional Information</p>
-          <table className="table table-dark table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Parameter</th>
-                <th scope="col">Amount per Serving</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Calories</td>
-                <td>150</td>
-              </tr>
-              <tr>
-                <td>Total Fat</td>
-                <td>10g</td>
-              </tr>
-              <tr>
-                <td>Cholesterol</td>
-                <td>20mg</td>
-              </tr>
-              <tr>
-                <td>Sodium</td>
-                <td>300mg</td>
-              </tr>
-              <tr>
-                <td>Total Carbohydrates</td>
-                <td>25g</td>
-              </tr>
-              <tr>
-                <td>Dietary Fiber</td>
-                <td>5g</td>
-              </tr>
-              <tr>
-                <td>Sugars</td>
-                <td>2g</td>
-              </tr>
-              <tr>
-                <td>Protein</td>
-                <td>5g</td>
-              </tr>
-              <tr>
-                <td>Vitamin C</td>
-                <td>10mg</td>
-              </tr>
-              <tr>
-                <td>Calcium</td>
-                <td>100mg</td>
-              </tr>
-            </tbody>
-          </table>
+          {nutritionalData ? (
+            <table className="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Parameter</th>
+                  <th scope="col">Amount per Serving</th>
+                </tr>
+              </thead>
+              <tbody>
+                {nutritionalData.map((nutrient, index) => (
+                  <tr key={index}>
+                    <td>{nutrient.name}</td>
+                    <td>
+                      {nutrient.amount} {nutrient.unit}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <table className="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Parameter</th>
+                  <th scope="col">Amount per Serving</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Array.from({ length: 10 }).map((_, index) => (
+                  <tr key={index}>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
         </div>
       </div>
       <div className="row mt-3">
-        <div className="fs-4 fst-italic m-2">Last updated on: {defaultTimestamp}</div>
+        <div className="fs-4 fst-italic m-2">
+          Last updated on: {defaultTimestamp}
+        </div>
         <div className="col-lg-12">
           <h3>Customer Reviews</h3>
           <div className="card">

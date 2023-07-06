@@ -16,7 +16,7 @@ const Home = () => {
             <Photoslider imgsrcs={imgsrc}  />
           </div>
           <div className="col-lg-4">
-            <div className="card mb-2 shadow">
+            <Link to="/about" className="card hoverable text-decoration-none mb-2 shadow">
               <h5 className="card-header">About</h5>
               <div className="card-body">
                 <h5 className="card-title">Know about us</h5>
@@ -31,9 +31,9 @@ const Home = () => {
                   Learn more
                 </Link>
               </div>
-            </div>
+            </Link>
 
-            <div className="card mb-2 shadow">
+            <Link to="/products" className="card hoverable text-decoration-none mb-2 shadow">
               <h5 className="card-header">Product</h5>
               <div className="card-body">
                 <h5 className="card-title">Product details</h5>
@@ -46,9 +46,9 @@ const Home = () => {
                   View our products
                 </Link>
               </div>
-            </div>
+            </Link>
           </div>
-          <div className="card m-2 p-0 shadow">
+          <Link to="/contact" className="card hoverable text-decoration-none m-2 p-0 shadow">
             <h5 className="card-header">Contact</h5>
             <div className="card-body">
               <h5 className="card-title">Contact details</h5>
@@ -62,8 +62,8 @@ const Home = () => {
                 Contact us
               </Link>
             </div>
-          </div>
-          <div className="card text-center p-0 mb-2 shadow">
+          </Link>
+          <div className="card hoverable text-center p-0 mb-2 shadow">
             <div className="card-header">Quote</div>
             <div className="card-body">
               <blockquote className="blockquote mb-0">
