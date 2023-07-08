@@ -1,8 +1,16 @@
 const SitemapGenerator = require('sitemap-generator');
 
-// Configure the generator with your website's URL
+const urls = [
+  'https://ahlesunnatweb.web.app/',
+  'https://ahlesunnatweb.web.app/ourproducts',
+  'https://ahlesunnatweb.web.app/ourproduts/:title',
+  'https://ahlesunnatweb.web.app/contact',
+  'https://ahlesunnatweb.web.app/about',
+  
+];
 const generator = SitemapGenerator('https://ahlesunnatweb.web.app/', {
-  stripQuerystring: true, // Optional: Remove query strings from URLs
+  stripQuerystring: true,
+  urls,
 });
 
 // Register event listeners
