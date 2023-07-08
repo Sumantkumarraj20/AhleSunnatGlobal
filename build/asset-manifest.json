@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28cac923.css",
+    "main.js": "/static/js/main.2d2bb305.js",
+    "static/js/787.ff1bc46d.chunk.js": "/static/js/787.ff1bc46d.chunk.js",
+    "static/media/onlinelogomaker-070423-0133-3618-2000-transparent.png": "/static/media/onlinelogomaker-070423-0133-3618-2000-transparent.c12a38449bf85e7618e1.png",
+    "index.html": "/index.html",
+    "main.28cac923.css.map": "/static/css/main.28cac923.css.map",
+    "main.2d2bb305.js.map": "/static/js/main.2d2bb305.js.map",
+    "787.ff1bc46d.chunk.js.map": "/static/js/787.ff1bc46d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28cac923.css",
+    "static/js/main.2d2bb305.js"
+  ]
+}
