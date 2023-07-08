@@ -3,13 +3,14 @@ import Photoslider from "../components/Photoslider";
 import "../App.css";
 import { Link } from "react-router-dom";
 import images from "../assets/data/imagesrc.json";
+import Layout from "../Layout";
 
 const Home = () => {
 
   const imgsrc = images.companyimage;
 
   return (
-    <div>
+    <Layout title="Home">
       <div className="container-fluid">
         <div className="row justify-content-center ">
           <div className="col-lg-8 position-relative rounded">
@@ -33,7 +34,7 @@ const Home = () => {
               </div>
             </Link>
 
-            <Link to="/products" className="card hoverable text-decoration-none mb-2 shadow">
+            <Link to="/ourproducts" className="card hoverable text-decoration-none mb-2 shadow">
               <h5 className="card-header">Product</h5>
               <div className="card-body">
                 <h5 className="card-title">Product details</h5>
@@ -76,7 +77,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

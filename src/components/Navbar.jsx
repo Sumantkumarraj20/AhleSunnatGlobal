@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/">
           <img
             src={iconPath}
-            alt="Logo"
+            alt="Ahlesunnat Global"
             width="60"
             height="40"
             className="d-inline-block align-text-center me-2 rounded"
@@ -35,7 +35,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/products" className="nav-link">
+              <NavLink to="/ourproducts" className="nav-link">
                 Products
               </NavLink>
             </li>

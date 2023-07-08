@@ -26,7 +26,7 @@ const Photoslider = ({ imgsrcs }) => {
             className={`carousel-item ${index === 0 ? "active" : ""}`}
           >
             <div className="image-container">
-              <img src={imgsrc} alt="source" />
+              <img src={imgsrc} alt="Ahlesunnat Global Pics" />
             </div>
           </div>
         ))}
