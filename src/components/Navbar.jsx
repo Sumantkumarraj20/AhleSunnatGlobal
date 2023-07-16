@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import iconPath from "../assets/icons/onlinelogomaker-070423-0133-3618-2000-transparent.png";
-import { NavLink, Link} from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    navigate(`/search-results?query=${encodeURIComponent(searchQuery)}`);
+  };
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div className="container-fluid">
@@ -45,9 +56,24 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/about" className="nav-link">About Us</NavLink>
+              <NavLink to="/about" className="nav-link">
+                About Us
+              </NavLink>
             </li>
           </ul>
+          <form className="d-flex ms-2" onSubmit={handleSearchSubmit}>
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search Our products"
+              aria-label="Search"
+              value={searchQuery}
+              onChange={handleSearchInputChange}
+            />
+            <button className="btn btn-light" type="submit">
+              <i className="fa fa-magnifying-glass"></i>
+            </button>
+          </form>
         </div>
       </div>
     </nav>

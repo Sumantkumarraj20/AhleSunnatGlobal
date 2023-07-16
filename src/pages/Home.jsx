@@ -43,7 +43,7 @@ const Home = () => {
                   our curated collection of premium imports and exports. Visit
                   our product page and indulge in excellence with AhleSunnat.
                 </p>
-                <Link to="/products" className="btn btn-dark">
+                <Link to="/ourproducts" className="btn btn-dark">
                   View our products
                 </Link>
               </div>

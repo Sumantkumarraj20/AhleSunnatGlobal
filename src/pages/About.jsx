@@ -149,7 +149,7 @@ const About = () => {
               <div className="card hoverable p-2 mb-2">
                 <h3 className="card-hearder text-center">Our Products</h3>
                 <Photoslider imgsrcs={randomImages} />
-                <Link to="/products" className="btn btn-dark">View our products</Link>
+                <Link to="/ourproducts" className="btn btn-dark">View our products</Link>
               </div>
       
             </div>

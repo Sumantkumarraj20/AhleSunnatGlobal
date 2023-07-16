@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const PoductCard = ({ product }) => {
-  const { ID, Title, ProductImage, Price } = product;
+  const { Title, ProductImage, Price } = product;
   // Select a random index from the ProductImage array
   const randomIndex = Math.floor(Math.random() * ProductImage.length);
   // Get the randomly selected image URL

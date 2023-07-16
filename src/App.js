@@ -9,6 +9,7 @@ import { useLocation } from "react-router-dom";
 import Layout from "./Layout";
 
 import { Route, Routes } from "react-router-dom";
+import SearchResults from "./pages/SearchResults";
 const App = () => {
   const location = useLocation();
 
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/ourproducts/:title" element={<ProductDetails />} />
+          <Route path="/search-results" element={<SearchResults />} />
         </Routes>
       </div>
     </Layout>
