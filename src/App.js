@@ -62,7 +62,7 @@ const App = () => {
 
     return () => unsubscribe();
   }, []);
-  console.log(user);
+ 
   return (
     <Layout className="root" title={title} description={description}>
       <div className="Nav">
@@ -90,7 +90,7 @@ const App = () => {
           <Route path="/ourproducts" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route path="/ourproducts/:title" element={<ProductDetails />} />
+          <Route path="/ourproducts/:title" element={<ProductDetails user={user} />} />
           <Route path="/search-results" element={<SearchResults />} />
         </Routes>
       </div>

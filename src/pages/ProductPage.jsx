@@ -4,12 +4,15 @@ import productData from "../assets/data/productdata.json";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import Layout from "../Layout";
+import firebase from "../firebase";
 
-const ProductPage = () => {
+
+const ProductPage = ({ user }) => {
   const { title } = useParams();
-  console.log(title)
-  const product = productData.find((product) => product.Title.trim().toLowerCase() === title.trim().toLowerCase());
-  console.log(product)
+  const product = productData.find(
+    (product) =>
+      product.Title.trim().toLowerCase() === title.trim().toLowerCase()
+  );
   const {
     Timestamp,
     HS_Code,
@@ -85,9 +88,45 @@ const ProductPage = () => {
   useEffect(() => {
     fetchNutritionalData(defaultTitle);
   }, [defaultTitle]);
+  console.log(user);
+
+  const [review, setReview] = useState("");
+  const [reviews, setReviews] = useState(product.reviews || []);
+
+  const handleReviewChange = (e) => {
+    setReview(e.target.value);
+  };
+
+  const handleReviewSubmit = async (e) => {
+    e.preventDefault();
+
+    const newReview = {
+      username: user.displayName,
+      review: review,
+    };
+
+    const updatedReviews = [...reviews, newReview];
+    setReviews(updatedReviews);
+
+    try {
+      const user = firebase.auth().currentUser;
+      if (user) {
+        const reviewRef = firebase.firestore().collection("reviews");
+        await reviewRef.add({
+          productId: product.ID, // Assuming you have an `id` field for each product in the JSON data
+          userId: user.uid,
+          ...newReview,
+        });
+
+        setReview(""); // Reset the review input field
+      }
+    } catch (error) {
+      console.error("Error adding review:", error);
+    }
+  };
 
   return (
-    <Layout title ={defaultTitle} description={defaultDescription}>
+    <Layout title={defaultTitle} description={defaultDescription}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6">
@@ -143,14 +182,18 @@ const ProductPage = () => {
             <p className="fs-5 mb-0 pb-0">Size</p>
             <p className="fw-light mt-0 pt-0">{defaultPackSize}</p>
             <p className="fs-5 mb-0 pb-0">Special Qualities of packaging </p>
-            <p className="fw-light mt-0 pt-0">{defaultSpecialPackagingFeature}</p>
+            <p className="fw-light mt-0 pt-0">
+              {defaultSpecialPackagingFeature}
+            </p>
           </div>
           <div className="col-lg-4">
             <p className="fs-3">Usage and Serving Suggestions</p>
             <p className="fs-4 mb-0 pb-0">Storage Suggetions</p>
             <p className="fw-light mt-0 pt-0">{defaultStorageInstructions}</p>
             <p className="fs-5 mb-0 pb-0">Preparation</p>
-            <p className="fw-light mt-0 pt-0">{defaultPreparationInstructions}</p>
+            <p className="fw-light mt-0 pt-0">
+              {defaultPreparationInstructions}
+            </p>
             <p className="fs-5 mb-0 pb-0">Serving</p>
             <p className="fw-light mt-0 pt-0">{defaultServingInstructions}</p>
           </div>
@@ -198,23 +241,39 @@ const ProductPage = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="fs-4 fst-italic m-2">
-            Last updated on: {defaultTimestamp}
-          </div>
           <div className="col-lg-12">
             <h3>Customer Reviews</h3>
-            <div className="card">
-              <div className="card-body">
-                <h5>John Doe</h5>
-                <p>This product is amazing!</p>
+            {reviews.length > 0 ? (
+              reviews.map((review, index) => (
+                <div className="card" key={index}>
+                  <div className="card-body">
+                    <h5>{review.username}</h5>
+                    <p>{review.review}</p>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <p>No reviews yet.</p>
+            )}
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-lg-12">
+            <h4>Write a Review</h4>
+            <form onSubmit={handleReviewSubmit}>
+              <div className="form-group">
+                <textarea
+                  className="form-control custom-input"
+                  rows="3"
+                  placeholder="Enter your review"
+                  value={review}
+                  onChange={handleReviewChange}
+                ></textarea>
               </div>
-            </div>
-            <div className="card mt-3">
-              <div className="card-body">
-                <h5>Jane Smith</h5>
-                <p>Highly recommended!</p>
-              </div>
-            </div>
+              <button type="submit" className="btn btn-dark mt-2">
+                Submit Review
+              </button>
+            </form>
           </div>
         </div>
       </div>
