@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ahlesunnatweb"
-  }
+    "default": "ahlesunnatweb",
+    "staging": "ahlesunnatweb"
+  },
+  "targets": {},
+  "etags": {}
 }
