@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.20b32bd2.css",
-    "main.js": "/static/js/main.6e80d6ac.js",
+    "main.js": "/static/js/main.5b3efb41.js",
     "static/js/787.ff1bc46d.chunk.js": "/static/js/787.ff1bc46d.chunk.js",
     "static/media/onlinelogomaker-070423-0133-3618.png": "/static/media/onlinelogomaker-070423-0133-3618.dcedf68275813d874c9f.png",
     "index.html": "/index.html",
     "main.20b32bd2.css.map": "/static/css/main.20b32bd2.css.map",
-    "main.6e80d6ac.js.map": "/static/js/main.6e80d6ac.js.map",
+    "main.5b3efb41.js.map": "/static/js/main.5b3efb41.js.map",
     "787.ff1bc46d.chunk.js.map": "/static/js/787.ff1bc46d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20b32bd2.css",
-    "static/js/main.6e80d6ac.js"
+    "static/js/main.5b3efb41.js"
   ]
 }

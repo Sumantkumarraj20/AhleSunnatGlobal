@@ -16,11 +16,11 @@ const Navbar = ({ user, isLoggedIn }) => {
     auth
       .signOut()
       .then(() => {
-        alert("You have successfully logged out")
+        alert("You have successfully logged out");
       })
       .catch((error) => {
         setError(error.message);
-        alert(error.message)
+        alert(error.message);
       });
   };
   const [profilePic, setProfilePic] = useState(
@@ -36,7 +36,7 @@ const Navbar = ({ user, isLoggedIn }) => {
     <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow">
       <div className="container-fluid">
         <button
-          className="navbar-toggler"
+          className="navbar-toggler me-2"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -52,9 +52,9 @@ const Navbar = ({ user, isLoggedIn }) => {
             alt="Ahlesunnat Global"
             width="50"
             height="50"
-            className="d-inline-block align-text-center me-2 rounded"
+            className="d-inline-block align-text-center rounded"
           />
-          Ahlesunnat Global
+          <span className="ms-2">Ahlesunnat Global</span>
         </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
@@ -79,59 +79,64 @@ const Navbar = ({ user, isLoggedIn }) => {
               </NavLink>
             </li>
           </ul>
-          <form className="d-flex ms-auto" onSubmit={handleSearchInputChange}>
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search Our products"
-              aria-label="Search"
-              value={searchQuery}
-              onChange={handleSearchInputChange}
-            />
-          </form>
-          {isLoggedIn === false ? (
-            <div className="authButtons">
-              <Link to="/signup" className="btn btn-outline-light me-auto">
-                SignUp
-              </Link>
-              <Link to="/login" className="btn btn-warning ms-2">
-                LogIn
-              </Link>
-            </div>
-          ) : (
-            <div className="dropdown text-end">
-              <Link
-                to="/profile"
-                className="d-block link-dark text-decoration-none dropdown-toggle"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src={profilePic}
-                  alt="mdo"
-                  width="32"
-                  height="32"
-                  className="rounded-circle"
-                />
-              </Link>
-              <ul className="dropdown-menu text-small">
-                <li className="dropdown-item"></li>
-                <li>
-                  <Link className="dropdown-item" to="/profile">
-                    Profile
-                  </Link>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <button className="dropdown-item" onClick={handleLogout}>
-                    Sign out
-                  </button>
-                </li>
-              </ul>
-            </div>
-          )}
+          <div className="d-flex ms-auto">
+            <form className="flex-grow-1" onSubmit={handleSearchInputChange}>
+              <input
+                className="form-control bg-dark text-white border-0"
+                type="search"
+                placeholder="Search Our products"
+                aria-label="Search"
+                value={searchQuery}
+                onChange={handleSearchInputChange}
+                style={{
+                  color: "white",
+                  opacity: 0.8,
+                }}
+              />
+            </form>
+            {!isLoggedIn ? (
+              <div className="authButtons">
+                <Link to="/signup" className="btn btn-outline-light me-auto">
+                  SignUp
+                </Link>
+                <Link to="/login" className="btn btn-warning ms-2">
+                  LogIn
+                </Link>
+              </div>
+            ) : (
+              <div className="dropdown ms-2">
+                <Link
+                  to="/profile"
+                  className="d-block link-dark text-decoration-none dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src={profilePic}
+                    alt="mdo"
+                    width="32"
+                    height="32"
+                    className="rounded-circle"
+                  />
+                </Link>
+                <ul className="dropdown-menu text-small">
+                  <li>
+                    <Link className="dropdown-item" to="/profile">
+                      Profile
+                    </Link>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <button className="dropdown-item" onClick={handleLogout}>
+                      Sign out
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </nav>
