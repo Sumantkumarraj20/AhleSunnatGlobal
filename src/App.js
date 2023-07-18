@@ -16,6 +16,7 @@ import ForgotPassword from "../src/authcomponents/ForgotPassword";
 import { Route, Routes } from "react-router-dom";
 import SearchResults from "./pages/SearchResults";
 import ProfilePage from "./authcomponents/ProfilePage";
+import Logout from "./authcomponents/Logout";
 
 const App = () => {
   const location = useLocation();
@@ -68,7 +69,7 @@ const App = () => {
       <div className="Nav">
         <Navbar isLoggedIn={isLoggedIn} user={user} />
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
@@ -87,6 +88,7 @@ const App = () => {
             path="/profile"
             element={!user ? <Navigate to="/login" /> : <ProfilePage />}
           />
+          <Route path="/logout" element={<Logout />} />
           <Route path="/ourproducts" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />

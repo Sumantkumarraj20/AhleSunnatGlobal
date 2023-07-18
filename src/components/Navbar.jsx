@@ -11,15 +11,15 @@ const Navbar = ({ user, isLoggedIn }) => {
     setSearchQuery(e.target.value);
     navigate(`/search-results?query=${encodeURIComponent(searchQuery)}`);
   };
-  const [error, setError] = useState(null);
+  console.log(user)
   const handleLogout = () => {
     auth
       .signOut()
       .then(() => {
-        alert("You have successfully logged out");
+        navigate("/logout");
+        window.location.reload();
       })
       .catch((error) => {
-        setError(error.message);
         alert(error.message);
       });
   };
@@ -80,18 +80,14 @@ const Navbar = ({ user, isLoggedIn }) => {
             </li>
           </ul>
           <div className="d-flex ms-auto">
-            <form className="flex-grow-1" onSubmit={handleSearchInputChange}>
+            <form className="d-flex me-2" onSubmit={handleSearchInputChange}>
               <input
-                className="form-control bg-dark text-white border-0"
+                className="form-control form-control-dark text-bg-dark custom-input"
                 type="search"
                 placeholder="Search Our products"
                 aria-label="Search"
                 value={searchQuery}
                 onChange={handleSearchInputChange}
-                style={{
-                  color: "white",
-                  opacity: 0.8,
-                }}
               />
             </form>
             {!isLoggedIn ? (
@@ -104,13 +100,8 @@ const Navbar = ({ user, isLoggedIn }) => {
                 </Link>
               </div>
             ) : (
-              <div className="dropdown ms-2">
-                <Link
-                  to="/profile"
-                  className="d-block link-dark text-decoration-none dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <div className="d-flex">
+                <Link to="/profile" className="me-2">
                   <img
                     src={profilePic}
                     alt="mdo"
@@ -119,21 +110,9 @@ const Navbar = ({ user, isLoggedIn }) => {
                     className="rounded-circle"
                   />
                 </Link>
-                <ul className="dropdown-menu text-small">
-                  <li>
-                    <Link className="dropdown-item" to="/profile">
-                      Profile
-                    </Link>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <button className="dropdown-item" onClick={handleLogout}>
-                      Sign out
-                    </button>
-                  </li>
-                </ul>
+                <span className="text-white" onClick={handleLogout}>
+                  Sign out
+                </span>
               </div>
             )}
           </div>

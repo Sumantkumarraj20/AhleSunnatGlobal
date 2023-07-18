@@ -5,27 +5,32 @@ import Layout from "../Layout";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
+  const [Name, setName] = useState("");
+  const [Surname, setSurname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
 
   const handleSignUp = async (e) => {
     e.preventDefault();
+    const displayName = `${Name} ${Surname}`;
 
     try {
-      // Create user with email and password
       const userCredential = await auth.createUserWithEmailAndPassword(
         email,
         password
       );
 
-      // Access the user object from userCredential
       const user = userCredential.user;
-      console.log(user);
 
-      // Do something with the user (e.g., save additional data to Firestore)
+      // Update the user's display name
+      await user.updateProfile({
+        displayName: displayName,
+      });
 
       // Clear form fields
+      setName("");
+      setSurname("");
       setEmail("");
       setPassword("");
 
@@ -56,6 +61,28 @@ const SignUp = () => {
                 {error}
               </div>
             )}
+            <div className="form-floating m-2">
+              <input
+                type="text"
+                className="form-control custom-input"
+                id="floatingInput"
+                placeholder="Sumant"
+                value={Name}
+                onChange={(e) => setName(e.target.value)}
+              />
+              <label htmlfor="floatingInput">Name</label>
+            </div>
+            <div className="form-floating m-2">
+              <input
+                type="text"
+                className="form-control custom-input"
+                id="floatingInput"
+                placeholder="Surname"
+                value={Surname}
+                onChange={(e) => setSurname(e.target.value)}
+              />
+              <label htmlfor="floatingInput">Surname</label>
+            </div>
             <div className="form-floating m-2">
               <input
                 type="email"
@@ -90,7 +117,11 @@ const SignUp = () => {
             Sign up with Google
           </button>
           <div className="alert alert-info m-2" role="alert">
-            If you already have an account <Link className="alert-link" to="/login">login here</Link> .
+            If you already have an account{" "}
+            <Link className="alert-link" to="/login">
+              login here
+            </Link>{" "}
+            .
           </div>
         </div>
       </div>

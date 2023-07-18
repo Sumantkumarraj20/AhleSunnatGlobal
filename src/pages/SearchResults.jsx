@@ -44,15 +44,23 @@ const SearchResults = () => {
   }, [searchQuery]);
 
   return (
-    <Layout title={"Search"}>
+    <Layout title={"product search"}>
       <div className="container-fluid">
         {filteredProducts.length === 0 ? (
           <div className="alert alert-danger m-4" role="alert">
-          <h4 className="alert-heading">Not Found!</h4>
-          <p>We apologize for not having what you are Looking for. Product related to "{searchQuery}" search keyword is not found on Ahlesunnat Web application. </p>
-          <hr/>
-          <p className="mb-0">Try using different keyword for the results. You look for something that is not available contact our team me, they will help you out. Thankyou for visiting Ahlesunnat Global.</p>
-        </div>
+            <h4 className="alert-heading">Not Found!</h4>
+            <p>
+              We apologize for not having what you are Looking for. Product
+              related to "{searchQuery}" search keyword is not found on
+              Ahlesunnat Web application.{" "}
+            </p>
+            <hr />
+            <p className="mb-0">
+              Try using different keyword for the results. You look for
+              something that is not available contact our team me, they will
+              help you out. Thankyou for visiting Ahlesunnat Global.
+            </p>
+          </div>
         ) : (
           <div className="row">
             {filteredProducts.map((product) => (

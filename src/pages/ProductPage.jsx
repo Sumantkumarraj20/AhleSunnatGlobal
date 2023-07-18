@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Photoslider from "../components/Photoslider";
 import productData from "../assets/data/productdata.json";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import Layout from "../Layout";
 import firebase from "../firebase";
-
 
 const ProductPage = ({ user }) => {
   const { title } = useParams();
@@ -14,7 +13,6 @@ const ProductPage = ({ user }) => {
       product.Title.trim().toLowerCase() === title.trim().toLowerCase()
   );
   const {
-    Timestamp,
     HS_Code,
     Type,
     Category,
@@ -31,7 +29,6 @@ const ProductPage = ({ user }) => {
   } = product;
 
   const defaultTitle = title || "Not available";
-  const defaultTimestamp = Timestamp || "Not available";
   const defaultHSCode = HS_Code || "Not available";
   const defaultType = Type || "Not available";
   const defaultCategory = Category || "Not available";
@@ -85,13 +82,27 @@ const ProductPage = ({ user }) => {
     }
   };
 
-  useEffect(() => {
-    fetchNutritionalData(defaultTitle);
-  }, [defaultTitle]);
-  console.log(user);
-
   const [review, setReview] = useState("");
   const [reviews, setReviews] = useState(product.reviews || []);
+
+  const fetchReviews = async () => {
+    try {
+      const reviewsSnapshot = await firebase
+        .firestore()
+        .collection("reviews")
+        .where("productId", "==", product.ID)
+        .get();
+      const reviewsData = reviewsSnapshot.docs.map((doc) => doc.data());
+      setReviews(reviewsData);
+    } catch (error) {
+      console.error("Error fetching reviews:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchNutritionalData(defaultTitle);
+    fetchReviews();
+  }, [defaultTitle]);
 
   const handleReviewChange = (e) => {
     setReview(e.target.value);
@@ -113,12 +124,12 @@ const ProductPage = ({ user }) => {
       if (user) {
         const reviewRef = firebase.firestore().collection("reviews");
         await reviewRef.add({
-          productId: product.ID, // Assuming you have an `id` field for each product in the JSON data
+          productId: product.ID,
           userId: user.uid,
           ...newReview,
         });
 
-        setReview(""); // Reset the review input field
+        setReview("");
       }
     } catch (error) {
       console.error("Error adding review:", error);
@@ -245,7 +256,7 @@ const ProductPage = ({ user }) => {
             <h3>Customer Reviews</h3>
             {reviews.length > 0 ? (
               reviews.map((review, index) => (
-                <div className="card" key={index}>
+                <div className="card mb-2 p-0" key={index}>
                   <div className="card-body">
                     <h5>{review.username}</h5>
                     <p>{review.review}</p>
@@ -257,25 +268,31 @@ const ProductPage = ({ user }) => {
             )}
           </div>
         </div>
-        <div className="row mt-3">
-          <div className="col-lg-12">
-            <h4>Write a Review</h4>
-            <form onSubmit={handleReviewSubmit}>
-              <div className="form-group">
-                <textarea
-                  className="form-control custom-input"
-                  rows="3"
-                  placeholder="Enter your review"
-                  value={review}
-                  onChange={handleReviewChange}
-                ></textarea>
-              </div>
-              <button type="submit" className="btn btn-dark mt-2">
-                Submit Review
-              </button>
-            </form>
+        {user ? (
+          <div className="row mt-3">
+            <div className="col-lg-12">
+              <h4>Write a Review</h4>
+              <form onSubmit={handleReviewSubmit}>
+                <div className="form-group">
+                  <textarea
+                    className="form-control custom-input"
+                    rows="3"
+                    placeholder="Enter your review"
+                    value={review}
+                    onChange={handleReviewChange}
+                  ></textarea>
+                </div>
+                <button type="submit" className="btn btn-dark mt-2">
+                  Submit Review
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div class="alert alert-warning" role="alert">
+            <Link className="alert-link" to="/login">Log in</Link> and give your <Link className="alert-link" to="/profile">profile</Link> name to write your review!
+          </div>
+        )}
       </div>
     </Layout>
   );
